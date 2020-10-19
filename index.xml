@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>John Downey</title>
+    <link>https://jtdowney.com/</link>
+    <description>John Downey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Nov 2015 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://jtdowney.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Don&#39;t wait to fix your password storage</title>
+      <link>https://jtdowney.com/blog/2015-11-01-dont-wait-to-fix-your-password-storage/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://jtdowney.com/blog/2015-11-01-dont-wait-to-fix-your-password-storage/</guid>
+      <description>&lt;p&gt;Over the past few years, I have given a talk on Cryptography Pitfalls at a variety of conferences. One section of the talk covers the evolution of password storage and the &lt;a href=&#34;http://arstechnica.com/security/2012/06/8-million-leaked-passwords-connected-to-linkedin/&#34;&gt;various&lt;/a&gt; &lt;a href=&#34;http://www.cnet.com/news/last-fm-warns-users-of-password-leak/&#34;&gt;data&lt;/a&gt; &lt;a href=&#34;http://www.cnn.com/2012/07/12/tech/web/yahoo-users-hacked/&#34;&gt;breaches&lt;/a&gt; &lt;a href=&#34;http://bgr.com/2014/05/27/ebay-hack-145-million-accounts-compromised/&#34;&gt;the&lt;/a&gt; &lt;a href=&#34;http://www.theverge.com/2013/11/7/5078560/over-150-million-breached-records-from-adobe-hack-surface-online&#34;&gt;last&lt;/a&gt; &lt;a href=&#34;http://qz.com/371676/hackers-breached-slacks-database-containing-users-contact-information-and-passwords/&#34;&gt;few&lt;/a&gt; &lt;a href=&#34;http://gawker.com/whats-actually-inside-the-nightmare-ashley-madison-leak-1725077740&#34;&gt;years&lt;/a&gt;. In addition to covering the ways password storage has been done wrong, I also present the best solutions. Instead of recapping it again, take a look at &lt;a href=&#34;http://codahale.com/how-to-safely-store-a-password/&#34;&gt;Coda Hale&amp;rsquo;s blog post&lt;/a&gt; on the topic.&lt;/p&gt;
+&lt;p&gt;A few brave souls will occasionally come up to me later and admit their company still stores passwords in a less than ideal way. There are many reasons for this, but they generally boil down to the fact that the software is old and developers just didn&amp;rsquo;t know any better when they wrote that part of the system.&lt;/p&gt;
+&lt;p&gt;When talking to them about how they plan to solve it, most come up with roughly the same solution: when a user logs in, transparently write an updated &lt;code&gt;bcrypt&lt;/code&gt; version of the password to the database. The problem with this solution is that users don&amp;rsquo;t benefit from the new system if they never log in. When teams upgrade their passwords this way, they will often look back years later and find that some users never logged in again. This is especially true in consumer products.&lt;/p&gt;
+&lt;p&gt;My advice to them is always the same: &lt;strong&gt;don&amp;rsquo;t wait to fix your password storage&lt;/strong&gt;. You should instead run the existing password hashes through &lt;code&gt;bcrypt&lt;/code&gt; and store that as your password verifier.&lt;/p&gt;
+&lt;p&gt;For a hypothetical example, let&amp;rsquo;s say we have an application that was storing passwords as just &lt;code&gt;sha1(password)&lt;/code&gt;. We could then change the code so that the new format for password storage is &lt;code&gt;bcrypt(sha1(password))&lt;/code&gt;. This is perfectly secure and has the benefit that we can derive the value given data we already have. This is a much better solution than silently updating on login. You can do this in three phases:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Deploy the code that can detect which password a user has and verify it correctly. Write new passwords in the updated &lt;code&gt;bcrypt(sha1(password))&lt;/code&gt; format.&lt;/li&gt;
+&lt;li&gt;Run a background job that visits each record in the &lt;code&gt;users&lt;/code&gt; table and updates their password by taking the &lt;code&gt;sha1(password)&lt;/code&gt; format and writing back the &lt;code&gt;bcrypt(sha1(password))&lt;/code&gt; format.&lt;/li&gt;
+&lt;li&gt;Go back and remove the code to detect the two different formats and only ever work with the new format.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Now you have fixed your password storage, and every user has the benefit right away.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introducing Trustworthy</title>
+      <link>https://jtdowney.com/blog/2013-08-01-introducing-trustworthy/</link>
+      <pubDate>Thu, 01 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://jtdowney.com/blog/2013-08-01-introducing-trustworthy/</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve all seen the tense scene in a war movie where the order has come down to launch the nuclear missiles. The captain and his first officer each take out a special key they&amp;rsquo;ve had around their neck the whole time. Then they both insert their individual keys into the weapons computer and turn simultaneously. Despite being a popular motif, this is a &lt;a href=&#34;http://en.wikipedia.org/wiki/Two_man_rule&#34;&gt;real policy&lt;/a&gt; implemented by many military organizations, including the U.S. Air Force. Once you think about it this kind of policy is obvious, one person shouldn&amp;rsquo;t be able to launch nuclear weapons on their own. Trustworthy is like having a two-man rule for your data.&lt;/p&gt;
+&lt;h2 id=&#34;how-it-works&#34;&gt;How it works&lt;/h2&gt;
+&lt;p&gt;Trustworthy is implemented as a &lt;a href=&#34;http://rubygems.org/gems/trustworthy&#34;&gt;ruby gem&lt;/a&gt; with the source on &lt;a href=&#34;https://github.com/jtdowney/trustworthy&#34;&gt;GitHub&lt;/a&gt;. When installed via ruby gems it creates a new command line utility named &lt;code&gt;trustworthy&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Once you have installed trustworthy, the first step is to generate a new master key. This key is never stored anywhere on disk but is instead derived from at least two user keys.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ trustworthy init
+Creating a new master key with 2 keys
+Username: user1
+Password:
+Password (again):
+Key user1 added
+Username: user2
+Password:
+Password (again):
+Key user2 added
+Created trustworthy.yml
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This command will generate the key in the background and then split it using &lt;a href=&#34;#secret-sharing&#34;&gt;Shamir&amp;rsquo;s Secret Sharing Algorithm&lt;/a&gt;. You can then use trustworthy to encrypt and decrypt files using this master key.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ trustworthy encrypt secret.txt
+Username: user1
+Password:
+Unlocked user1
+Username: user2
+Password:
+Unlocked user2
+Reconstructed master key
+Encrypted secret.txt to secret.txt.tw
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Additional users can be added provided two current users unlock the master key to do so.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ trustworthy add-key
+Adding a new key to master key
+Username: user1
+Password:
+Unlocked user1
+Username: user2
+Password:
+Unlocked user2
+Reconstructed master key
+Username: user3
+Password:
+Password (again):
+Added user3
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;shamirs-secret-sharing-algorithma-idsecret-sharinga&#34;&gt;Shamir&amp;rsquo;s Secret Sharing Algorithm&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;
+&lt;p&gt;The algorithm behind trustworthy is incredibly simple and requires nothing more than a high school understanding of algebra. Trustworthy uses &lt;a href=&#34;http://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing&#34;&gt;Shamir&amp;rsquo;s Secret Sharing algorithm&lt;/a&gt; to split a master key between two users. In general, Shamir&amp;rsquo;s Secret Sharing algorithm uses a polynomial as the master key. Each user is given a unique point along that polynomial that can be used to reconstruct the master key at a later point. Trustworthy implements the most basic form of Shamir&amp;rsquo;s Secret Sharing algorithm, polynomials of degree one.&lt;/p&gt;
+&lt;p&gt;If you think back to high school you might remember the slope intercept form &lt;code&gt;y = mx + b&lt;/code&gt; which defines a line. The y-intercept, &lt;code&gt;b&lt;/code&gt;, is used by trustworthy as the master key.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jtdowney.com/images/introducing-trustworthy-graph.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;In this example, Alice is given the point &lt;code&gt;10, 21&lt;/code&gt;, and Bob is given &lt;code&gt;40, 9&lt;/code&gt;. By themselves, neither Alice nor Bob can figure out the y-intercept. However, once they come together, they can recompute the line and easily derive the y-intercept &lt;code&gt;40&lt;/code&gt;. To protect the points along of the line, trustworthy encrypts the data using a user supplied password. At runtime the user provides the password so that the point can first be decrypted.&lt;/p&gt;
+&lt;h2 id=&#34;contributing&#34;&gt;Contributing&lt;/h2&gt;
+&lt;p&gt;If you think of a new feature or happen to find a bug feel free to open an issue on &lt;a href=&#34;https://github.com/jtdowney/trustworthy&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Presentations</title>
+      <link>https://jtdowney.com/presentations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jtdowney.com/presentations/</guid>
+      <description>&lt;h2 id=&#34;cryptography-pitfalls&#34;&gt;Cryptography Pitfalls&lt;/h2&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/nucBqQLHv-A?start=&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/jtdowney/cryptography-pitfalls-at-goto-chicago-2016&#34;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;debugging-tlsssl&#34;&gt;Debugging TLS/SSL&lt;/h2&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/vltTdV5ZURc?start=&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/jtdowney/ssl-at-devopsdays-boston&#34;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;devops-for-the-rubyist-soul&#34;&gt;Devops for the Rubyist Soul&lt;/h2&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/KmUq-SIFmgE?start=&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/jtdowney/devops-for-the-rubyist-soul-at-railsconf-2013&#34;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;non-recorded&#34;&gt;Non-recorded&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/jtdowney/i-love-unix-and-so-can-you&#34;&gt;I love UNIX and so can you!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/jtdowney/basic-ios-security-analysis&#34;&gt;Basic iOS Security Analysis - OWASP Chicago&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+
+
+<html lang="en-us" data-theme="">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Introducing Trustworthy - John Downey</title>
+<meta name="description" content="Personal website and blog of John Downey">
+
+<link rel="icon" type="image/x-icon" href="https://jtdowney.com/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://jtdowney.com/favicon.png">
+
+<link rel="stylesheet" href="https://jtdowney.com/css/light.css?rnd=1603074212" />
+<style>
+
+    [data-theme="dark"] {   
+        --font-color: #eee;
+--bg-color: #212121;
+
+--link-color:#599ada;
+--link-state-color:#ff5858;
+--link-state-border-color: rgba(238, 54, 54, 0.5);
+
+--thead-bg-color: #343a40;
+--table-border-color: lightgrey;
+
+--pre-color: #333;
+--pre-bg-color: #f1f1f1;
+
+--bq-color: #ccc;
+--hr-color: #333;
+
+--pagination-bg-color: #373737;
+--pagination-link-color: #b6b6b6;
+
+--post-info-color: grey;
+
+--switcher-color: #333;
+--switcher-bg-color: #fff;
+
+    }
+
+</style>
+
+<link rel="stylesheet" href="https://jtdowney.com/css/style.css?rnd=1603074212" />
+
+
+
+
+
+<meta property="og:title" content="Introducing Trustworthy" />
+<meta property="og:description" content="We&rsquo;ve all seen the tense scene in a war movie where the order has come down to launch the nuclear missiles. The captain and his first officer each take out a special key they&rsquo;ve had around their neck the whole time. Then they both insert their individual keys into the weapons computer and turn simultaneously. Despite being a popular motif, this is a real policy implemented by many military organizations, including the U." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jtdowney.com/blog/2013-08-01-introducing-trustworthy/" />
+<meta property="article:published_time" content="2013-08-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2013-08-01T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Introducing Trustworthy"/>
+<meta name="twitter:description" content="We&rsquo;ve all seen the tense scene in a war movie where the order has come down to launch the nuclear missiles. The captain and his first officer each take out a special key they&rsquo;ve had around their neck the whole time. Then they both insert their individual keys into the weapons computer and turn simultaneously. Despite being a popular motif, this is a real policy implemented by many military organizations, including the U."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+    <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header class="common-header"> 
+            
+                <h1 class="site-title">
+    <a href="/">John Downey</a>
+</h1>
+
+    <nav>
+        
+        
+        <a class="" href="https://jtdowney.com/presentations/" title="Presentations">Presentations</a>
+        
+        <a class="" href="https://jtdowney.com/blog/" title="Archive">Archive</a>
+        
+    </nav>
+
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+    
+    
+    <article class="post">
+        <header class="post-header">
+            <h1 class="post-title">Introducing Trustworthy</h1>
+        </header>
+        <div class="content">
+            <p>We&rsquo;ve all seen the tense scene in a war movie where the order has come down to launch the nuclear missiles. The captain and his first officer each take out a special key they&rsquo;ve had around their neck the whole time. Then they both insert their individual keys into the weapons computer and turn simultaneously. Despite being a popular motif, this is a <a href="http://en.wikipedia.org/wiki/Two_man_rule">real policy</a> implemented by many military organizations, including the U.S. Air Force. Once you think about it this kind of policy is obvious, one person shouldn&rsquo;t be able to launch nuclear weapons on their own. Trustworthy is like having a two-man rule for your data.</p>
+<h2 id="how-it-works">How it works</h2>
+<p>Trustworthy is implemented as a <a href="http://rubygems.org/gems/trustworthy">ruby gem</a> with the source on <a href="https://github.com/jtdowney/trustworthy">GitHub</a>. When installed via ruby gems it creates a new command line utility named <code>trustworthy</code>.</p>
+<p>Once you have installed trustworthy, the first step is to generate a new master key. This key is never stored anywhere on disk but is instead derived from at least two user keys.</p>
+<pre><code>$ trustworthy init
+Creating a new master key with 2 keys
+Username: user1
+Password:
+Password (again):
+Key user1 added
+Username: user2
+Password:
+Password (again):
+Key user2 added
+Created trustworthy.yml
+</code></pre>
+<p>This command will generate the key in the background and then split it using <a href="#secret-sharing">Shamir&rsquo;s Secret Sharing Algorithm</a>. You can then use trustworthy to encrypt and decrypt files using this master key.</p>
+<pre><code>$ trustworthy encrypt secret.txt
+Username: user1
+Password:
+Unlocked user1
+Username: user2
+Password:
+Unlocked user2
+Reconstructed master key
+Encrypted secret.txt to secret.txt.tw
+</code></pre>
+<p>Additional users can be added provided two current users unlock the master key to do so.</p>
+<pre><code>$ trustworthy add-key
+Adding a new key to master key
+Username: user1
+Password:
+Unlocked user1
+Username: user2
+Password:
+Unlocked user2
+Reconstructed master key
+Username: user3
+Password:
+Password (again):
+Added user3
+</code></pre>
+<h2 id="shamirs-secret-sharing-algorithma-idsecret-sharinga">Shamir&rsquo;s Secret Sharing Algorithm<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<p>The algorithm behind trustworthy is incredibly simple and requires nothing more than a high school understanding of algebra. Trustworthy uses <a href="http://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing">Shamir&rsquo;s Secret Sharing algorithm</a> to split a master key between two users. In general, Shamir&rsquo;s Secret Sharing algorithm uses a polynomial as the master key. Each user is given a unique point along that polynomial that can be used to reconstruct the master key at a later point. Trustworthy implements the most basic form of Shamir&rsquo;s Secret Sharing algorithm, polynomials of degree one.</p>
+<p>If you think back to high school you might remember the slope intercept form <code>y = mx + b</code> which defines a line. The y-intercept, <code>b</code>, is used by trustworthy as the master key.</p>
+<p><img src="/images/introducing-trustworthy-graph.png" alt=""></p>
+<p>In this example, Alice is given the point <code>10, 21</code>, and Bob is given <code>40, 9</code>. By themselves, neither Alice nor Bob can figure out the y-intercept. However, once they come together, they can recompute the line and easily derive the y-intercept <code>40</code>. To protect the points along of the line, trustworthy encrypts the data using a user supplied password. At runtime the user provides the password so that the point can first be decrypted.</p>
+<h2 id="contributing">Contributing</h2>
+<p>If you think of a new feature or happen to find a bug feel free to open an issue on <a href="https://github.com/jtdowney/trustworthy">GitHub</a>.</p>
+
+        </div>
+        
+
+    
+
+
+<div class="post-info">
+    
+        <div class="post-date">2013-08-01</div>
+    
+    <div class="post-taxonomies">
+        
+            <ul class="post-categories">
+                
+                    <li><a href="https://jtdowney.com/categories/">cryptography</a></li>
+                
+                    <li><a href="https://jtdowney.com/categories/">security</a></li>
+                
+                    <li><a href="https://jtdowney.com/categories/">ruby</a></li>
+                
+                    <li><a href="https://jtdowney.com/categories/">gem</a></li>
+                
+            </ul>
+            
+            
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+
+
+        </main>
+        
+            <footer class="common-footer">
+    
+    
+
+    <div class="common-footer-bottom">
+        
+        <div class="copyright">
+            <p>© John Downey, 2020<br>
+            Powered by <a target="_blank" rel="noopener noreferrer" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" rel="noopener noreferrer" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+            </p>  
+        </div> 
+
+        
+
+    
+
+
+
+    <button class="theme-switcher">
+        Dark theme
+    </button>
+
+    <script>
+    const STORAGE_KEY = 'user-color-scheme'
+    const defaultTheme = "auto"
+
+    let currentTheme
+    let switchButton
+    let autoDefinedScheme = window.matchMedia('(prefers-color-scheme: dark)')
+
+    const autoChangeScheme = e => {
+        currentTheme = e.matches ? 'dark' : 'light'
+        document.documentElement.setAttribute('data-theme', currentTheme)
+        changeButtonText()
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        switchButton = document.querySelector('.theme-switcher')
+        currentTheme = detectCurrentScheme()
+        if (currentTheme == 'dark') {
+            document.documentElement.setAttribute('data-theme', 'dark')
+        }
+        if (currentTheme == 'auto') {
+            autoChangeScheme(autoDefinedScheme);
+            autoDefinedScheme.addListener(autoChangeScheme);
+        }
+        changeButtonText()
+        switchButton.addEventListener('click', switchTheme, false)
+    })
+
+    function detectCurrentScheme() {
+        if (localStorage.getItem(STORAGE_KEY)) {
+            return localStorage.getItem(STORAGE_KEY)
+        } 
+        if (defaultTheme) {
+            return defaultTheme
+        } 
+        if (!window.matchMedia) {
+            return 'light'
+        } 
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            return 'dark'
+        }
+        return 'light'
+    }
+
+    function changeButtonText()
+    {   
+        switchButton.textContent = currentTheme == 'dark' ?  "Light theme" : "Dark theme"
+    }
+
+    function switchTheme(e) {
+        if (currentTheme == 'dark') {
+            localStorage.setItem(STORAGE_KEY, 'light')
+            document.documentElement.setAttribute('data-theme', 'light')
+            currentTheme = 'light'
+        } else {
+            localStorage.setItem(STORAGE_KEY, 'dark')
+            document.documentElement.setAttribute('data-theme', 'dark')
+            currentTheme = 'dark'
+        }
+        changeButtonText()
+    }
+    </script>
+   
+    </div>
+</footer>
+
+        
+    </div>
+</body>
+</html>
