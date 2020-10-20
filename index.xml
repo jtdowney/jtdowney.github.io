@@ -90,6 +90,30 @@ Added user3
     </item>
     
     <item>
+      <title>About</title>
+      <link>https://jtdowney.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jtdowney.com/about/</guid>
+      <description>&lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
+&lt;p&gt;John Downey is currently the VP of Information Security at &lt;a href=&#34;https://www.joinroot.com&#34;&gt;Root&lt;/a&gt;. Root is a car insurance company founded on the belief that good drivers should pay less for insurance since they&amp;rsquo;re less likely to get into accidents. Using technology in smartphones to measure driving behavior, the Root app determines who is a safe driver and who isn&amp;rsquo;t. In his free time, he contributes to open source projects and volunteers for organizations like the &lt;a href=&#34;https://www.dystonia-foundation.org&#34;&gt;Dystonia Medical Research Foundation&lt;/a&gt; and &lt;a href=&#34;https://www.firstinspires.org&#34;&gt;FIRST Robotics&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;previous-work&#34;&gt;Previous Work&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;VP of Information Security at Root&lt;/li&gt;
+&lt;li&gt;Director of Business Unit Information Security at PayPal&lt;/li&gt;
+&lt;li&gt;Security Lead at Braintree&lt;/li&gt;
+&lt;li&gt;Senior Software Developer at Purdue University&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Email - john@ this website&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/jtdowney&#34;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/jtdowney/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Presentations</title>
       <link>https://jtdowney.com/presentations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

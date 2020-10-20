@@ -17,7 +17,7 @@
 <link rel="icon" type="image/x-icon" href="https://jtdowney.com/favicon.ico">
 <link rel="apple-touch-icon-precomposed" href="https://jtdowney.com/favicon.png">
 
-<link rel="stylesheet" href="https://jtdowney.com/css/light.css?rnd=1603114157" />
+<link rel="stylesheet" href="https://jtdowney.com/css/light.css?rnd=1603158958" />
 <style>
 
     [data-theme="dark"] {   
@@ -49,7 +49,7 @@
 
 </style>
 
-<link rel="stylesheet" href="https://jtdowney.com/css/style.css?rnd=1603114157" />
+<link rel="stylesheet" href="https://jtdowney.com/css/style.css?rnd=1603158958" />
 
 
 
@@ -101,6 +101,8 @@ if (!doNotTrack) {
         
         <a class="" href="https://jtdowney.com/presentations/" title="Presentations">Presentations</a>
         
+        <a class="" href="https://jtdowney.com/about/" title="About">About</a>
+        
         <a class="" href="https://jtdowney.com/blog/" title="Archive">Archive</a>
         
     </nav>
@@ -123,17 +125,20 @@ if (!doNotTrack) {
 
         </main>
         
-            <footer class="common-footer">
+            <hr>
+
+<footer class="common-footer">
     
     
 
     <div class="common-footer-bottom">
         
         <div class="copyright">
-            <p>© John Downey, 2020<br>
+						<p xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#" class="license-text">Except where otherwise noted, content on this site by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://jtdowney.com">John Downey</a> is licensed under <a rel="license" href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" /></a></p>
+
             Powered by <a target="_blank" rel="noopener noreferrer" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" rel="noopener noreferrer" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
-            </p>  
-        </div> 
+            </p>
+        </div>
 
         
 
@@ -141,73 +146,6 @@ if (!doNotTrack) {
 
 
 
-    <button class="theme-switcher">
-        Dark theme
-    </button>
-
-    <script>
-    const STORAGE_KEY = 'user-color-scheme'
-    const defaultTheme = "auto"
-
-    let currentTheme
-    let switchButton
-    let autoDefinedScheme = window.matchMedia('(prefers-color-scheme: dark)')
-
-    const autoChangeScheme = e => {
-        currentTheme = e.matches ? 'dark' : 'light'
-        document.documentElement.setAttribute('data-theme', currentTheme)
-        changeButtonText()
-    }
-
-    document.addEventListener('DOMContentLoaded', function() {
-        switchButton = document.querySelector('.theme-switcher')
-        currentTheme = detectCurrentScheme()
-        if (currentTheme == 'dark') {
-            document.documentElement.setAttribute('data-theme', 'dark')
-        }
-        if (currentTheme == 'auto') {
-            autoChangeScheme(autoDefinedScheme);
-            autoDefinedScheme.addListener(autoChangeScheme);
-        }
-        changeButtonText()
-        switchButton.addEventListener('click', switchTheme, false)
-    })
-
-    function detectCurrentScheme() {
-        if (localStorage.getItem(STORAGE_KEY)) {
-            return localStorage.getItem(STORAGE_KEY)
-        } 
-        if (defaultTheme) {
-            return defaultTheme
-        } 
-        if (!window.matchMedia) {
-            return 'light'
-        } 
-        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            return 'dark'
-        }
-        return 'light'
-    }
-
-    function changeButtonText()
-    {   
-        switchButton.textContent = currentTheme == 'dark' ?  "Light theme" : "Dark theme"
-    }
-
-    function switchTheme(e) {
-        if (currentTheme == 'dark') {
-            localStorage.setItem(STORAGE_KEY, 'light')
-            document.documentElement.setAttribute('data-theme', 'light')
-            currentTheme = 'light'
-        } else {
-            localStorage.setItem(STORAGE_KEY, 'dark')
-            document.documentElement.setAttribute('data-theme', 'dark')
-            currentTheme = 'dark'
-        }
-        changeButtonText()
-    }
-    </script>
-   
     </div>
 </footer>
 
