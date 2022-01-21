@@ -33,13 +33,13 @@
   <div class="container mx-auto max-w-4xl px-4 py-4">
     <nav class="md:flex md:justify-between pb-2 font-semibold">
   <div class="md:pb-0 pb-4">
-    <a class="text-gray-700 hover:text-gray-700 hover:no-underline" href="/">
+    <a class="text-gray-700 hover:text-gray-700 hover:no-underline" href="../../../../../">
       <h1 class="font-bold text-6xl lg:text-7xl">jtdowney</h1>
     </a>
   </div>
   <div class="my-auto space-x-3">
-    <a class="text-gray-700 md:text-2xl text-xl" href="/about">About</a>
-    <a class="text-gray-700 md:text-2xl text-xl" href="/presentations">Presentations</a>
+    <a class="text-gray-700 md:text-2xl text-xl" href="../../../../../about">About</a>
+    <a class="text-gray-700 md:text-2xl text-xl" href="../../../../../presentations">Presentations</a>
   </div>
 </nav>
 
@@ -120,7 +120,7 @@ Added user3
 <h2 id="shamirs-secret-sharing-algorithm">Shamir&rsquo;s Secret Sharing Algorithm</h2>
 <p>The algorithm behind trustworthy is incredibly simple and requires nothing more than a high school understanding of algebra. Trustworthy uses <a href="http://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing">Shamir&rsquo;s Secret Sharing algorithm</a> to split a master key between two users. In general, Shamir&rsquo;s Secret Sharing algorithm uses a polynomial as the master key. Each user is given a unique point along that polynomial that can be used to reconstruct the master key at a later point. Trustworthy implements the most basic form of Shamir&rsquo;s Secret Sharing algorithm, polynomials of degree one.</p>
 <p>If you think back to high school you might remember the slope intercept form <code>y = mx + b</code> which defines a line. The y-intercept, <code>b</code>, is used by trustworthy as the master key.</p>
-<p><img src="/images/introducing-trustworthy-graph.png" alt=""></p>
+<p><img src="../../../../../images/introducing-trustworthy-graph.png" alt=""></p>
 <p>In this example, Alice is given the point <code>10, 21</code>, and Bob is given <code>40, 9</code>. By themselves, neither Alice nor Bob can figure out the y-intercept. However, once they come together, they can recompute the line and easily derive the y-intercept <code>40</code>. To protect the points along of the line, trustworthy encrypts the data using a user supplied password. At runtime the user provides the password so that the point can first be decrypted.</p>
 <h2 id="contributing">Contributing</h2>
 <p>If you think of a new feature or happen to find a bug feel free to open an issue on <a href="https://github.com/jtdowney/trustworthy">GitHub</a>.</p>
