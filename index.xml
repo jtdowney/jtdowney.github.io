@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>John Downey</title>
-    <link>https://jtdowney.com/</link>
+    <link>/</link>
     <description>John Downey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Nov 2015 00:00:00 +0000</lastBuildDate>
     
-    <atom:link href="https://jtdowney.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Don&#39;t wait to fix your password storage</title>
-      <link>https://jtdowney.com/blog/2015/11/01/dont-wait-to-fix-your-password-storage/</link>
+      <link>/blog/2015/11/01/dont-wait-to-fix-your-password-storage/</link>
       <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://jtdowney.com/blog/2015/11/01/dont-wait-to-fix-your-password-storage/</guid>
+      <guid>/blog/2015/11/01/dont-wait-to-fix-your-password-storage/</guid>
       <description>&lt;p&gt;Over the past few years, I have given a talk on Cryptography Pitfalls at a variety of conferences. One section of the talk covers the evolution of password storage and the &lt;a href=&#34;http://arstechnica.com/security/2012/06/8-million-leaked-passwords-connected-to-linkedin/&#34;&gt;various&lt;/a&gt; &lt;a href=&#34;http://www.cnet.com/news/last-fm-warns-users-of-password-leak/&#34;&gt;data&lt;/a&gt; &lt;a href=&#34;http://www.cnn.com/2012/07/12/tech/web/yahoo-users-hacked/&#34;&gt;breaches&lt;/a&gt; &lt;a href=&#34;http://bgr.com/2014/05/27/ebay-hack-145-million-accounts-compromised/&#34;&gt;the&lt;/a&gt; &lt;a href=&#34;http://www.theverge.com/2013/11/7/5078560/over-150-million-breached-records-from-adobe-hack-surface-online&#34;&gt;last&lt;/a&gt; &lt;a href=&#34;http://qz.com/371676/hackers-breached-slacks-database-containing-users-contact-information-and-passwords/&#34;&gt;few&lt;/a&gt; &lt;a href=&#34;http://gawker.com/whats-actually-inside-the-nightmare-ashley-madison-leak-1725077740&#34;&gt;years&lt;/a&gt;. In addition to covering the ways password storage has been done wrong, I also present the best solutions. Instead of recapping it again, take a look at &lt;a href=&#34;http://codahale.com/how-to-safely-store-a-password/&#34;&gt;Coda Hale&amp;rsquo;s blog post&lt;/a&gt; on the topic.&lt;/p&gt;
 &lt;p&gt;A few brave souls will occasionally come up to me later and admit their company still stores passwords in a less than ideal way. There are many reasons for this, but they generally boil down to the fact that the software is old and developers just didn&amp;rsquo;t know any better when they wrote that part of the system.&lt;/p&gt;
 &lt;p&gt;When talking to them about how they plan to solve it, most come up with roughly the same solution: when a user logs in, transparently write an updated &lt;code&gt;bcrypt&lt;/code&gt; version of the password to the database. The problem with this solution is that users don&amp;rsquo;t benefit from the new system if they never log in. When teams upgrade their passwords this way, they will often look back years later and find that some users never logged in again. This is especially true in consumer products.&lt;/p&gt;
@@ -33,10 +33,10 @@
     
     <item>
       <title>Introducing Trustworthy</title>
-      <link>https://jtdowney.com/blog/2013/08/01/introducing-trustworthy/</link>
+      <link>/blog/2013/08/01/introducing-trustworthy/</link>
       <pubDate>Thu, 01 Aug 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://jtdowney.com/blog/2013/08/01/introducing-trustworthy/</guid>
+      <guid>/blog/2013/08/01/introducing-trustworthy/</guid>
       <description>&lt;p&gt;We&amp;rsquo;ve all seen the tense scene in a war movie where the order has come down to launch the nuclear missiles. The captain and his first officer each take out a special key they&amp;rsquo;ve had around their neck the whole time. Then they both insert their individual keys into the weapons computer and turn simultaneously. Despite being a popular motif, this is a &lt;a href=&#34;http://en.wikipedia.org/wiki/Two_man_rule&#34;&gt;real policy&lt;/a&gt; implemented by many military organizations, including the U.S. Air Force. Once you think about it this kind of policy is obvious, one person shouldn&amp;rsquo;t be able to launch nuclear weapons on their own. Trustworthy is like having a two-man rule for your data.&lt;/p&gt;
 &lt;h2 id=&#34;how-it-works&#34;&gt;How it works&lt;/h2&gt;
 &lt;p&gt;Trustworthy is implemented as a &lt;a href=&#34;http://rubygems.org/gems/trustworthy&#34;&gt;ruby gem&lt;/a&gt; with the source on &lt;a href=&#34;https://github.com/jtdowney/trustworthy&#34;&gt;GitHub&lt;/a&gt;. When installed via ruby gems it creates a new command line utility named &lt;code&gt;trustworthy&lt;/code&gt;.&lt;/p&gt;
@@ -91,10 +91,10 @@ Added user3
     
     <item>
       <title>About</title>
-      <link>https://jtdowney.com/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jtdowney.com/about/</guid>
+      <guid>/about/</guid>
       <description>&lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
 &lt;p&gt;John Downey is currently the Chief Information Security Officer at &lt;a href=&#34;https://www.gofundme.com&#34;&gt;GoFundMe&lt;/a&gt;. In his free time, he contributes to open source projects and volunteers for organizations like the &lt;a href=&#34;https://www.dystonia-foundation.org&#34;&gt;Dystonia Medical Research Foundation&lt;/a&gt; and &lt;a href=&#34;https://www.firstinspires.org&#34;&gt;FIRST Robotics&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;previous-work&#34;&gt;Previous Work&lt;/h2&gt;
@@ -116,10 +116,10 @@ Added user3
     
     <item>
       <title>Presentations</title>
-      <link>https://jtdowney.com/presentations/</link>
+      <link>/presentations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jtdowney.com/presentations/</guid>
+      <guid>/presentations/</guid>
       <description>&lt;h2 id=&#34;cryptography-pitfalls&#34;&gt;Cryptography Pitfalls&lt;/h2&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;

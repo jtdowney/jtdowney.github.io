@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>gem on John Downey</title>
-    <link>https://jtdowney.com/tags/gem/</link>
+    <link>/tags/gem/</link>
     <description>John Downey (gem)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Aug 2013 00:00:00 +0000</lastBuildDate>
     
-    <atom:link href="https://jtdowney.com/tags/gem/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/gem/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Introducing Trustworthy</title>
-      <link>https://jtdowney.com/blog/2013/08/01/introducing-trustworthy/</link>
+      <link>/blog/2013/08/01/introducing-trustworthy/</link>
       <pubDate>Thu, 01 Aug 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://jtdowney.com/blog/2013/08/01/introducing-trustworthy/</guid>
+      <guid>/blog/2013/08/01/introducing-trustworthy/</guid>
       <description>&lt;p&gt;We&amp;rsquo;ve all seen the tense scene in a war movie where the order has come down to launch the nuclear missiles. The captain and his first officer each take out a special key they&amp;rsquo;ve had around their neck the whole time. Then they both insert their individual keys into the weapons computer and turn simultaneously. Despite being a popular motif, this is a &lt;a href=&#34;http://en.wikipedia.org/wiki/Two_man_rule&#34;&gt;real policy&lt;/a&gt; implemented by many military organizations, including the U.S. Air Force. Once you think about it this kind of policy is obvious, one person shouldn&amp;rsquo;t be able to launch nuclear weapons on their own. Trustworthy is like having a two-man rule for your data.&lt;/p&gt;
 &lt;h2 id=&#34;how-it-works&#34;&gt;How it works&lt;/h2&gt;
 &lt;p&gt;Trustworthy is implemented as a &lt;a href=&#34;http://rubygems.org/gems/trustworthy&#34;&gt;ruby gem&lt;/a&gt; with the source on &lt;a href=&#34;https://github.com/jtdowney/trustworthy&#34;&gt;GitHub&lt;/a&gt;. When installed via ruby gems it creates a new command line utility named &lt;code&gt;trustworthy&lt;/code&gt;.&lt;/p&gt;
