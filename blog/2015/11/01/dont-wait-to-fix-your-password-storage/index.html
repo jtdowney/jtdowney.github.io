@@ -30,7 +30,7 @@
   
   
 
-<link rel="stylesheet" href="../../../../../css/main.min.cccce5ec6a2135deccd25cfe5f1995dcca2cc94d4ff0d015d5e75b473e1479cc.css" integrity="sha256-zMzl7GohNd7M0lz+XxmV3MosyU1P8NAV1edbRz4Uecw=" />
+<link rel="stylesheet" href="../../../../../css/main.min.67ca69bbd156b7ac766066914e4cce0630226a880a87c1c15957a2ea2dbf09d0.css" integrity="sha256-Z8ppu9FWt6x2YGaRTkzOBjAiaogKh8HBWVei6i2/CdA=" />
 
 
 <meta property="og:title" content="Don&#39;t wait to fix your password storage" />
@@ -48,7 +48,7 @@
 
 </head>
 
-<body>
+<body class="bg-slate-100 text-slate-800 font-sans">
   <div class="container mx-auto max-w-4xl px-4 py-4">
     <nav class="md:flex md:justify-between pb-2 font-semibold">
   <div class="md:pb-0 pb-4">
@@ -77,7 +77,7 @@
 
 <div class="text-lg text-slate-400 pb-2">
   
-  <div>2015-11-01</div>
+  <div class="font-semibold text-slate-500">2015-11-01</div>
   
 
   <ul class="flex space-x-2 list-none my-0">
@@ -89,7 +89,7 @@
   </ul>
 </div>
 
-    <div class="prose lg:prose-xl">
+    <div class="prose lg:prose-xl prose-headings:font-serif">
       <p>Over the past few years, I have given a talk on Cryptography Pitfalls at a variety of conferences. One section of the talk covers the evolution of password storage and the <a href="http://arstechnica.com/security/2012/06/8-million-leaked-passwords-connected-to-linkedin/">various</a> <a href="http://www.cnet.com/news/last-fm-warns-users-of-password-leak/">data</a> <a href="http://www.cnn.com/2012/07/12/tech/web/yahoo-users-hacked/">breaches</a> <a href="http://bgr.com/2014/05/27/ebay-hack-145-million-accounts-compromised/">the</a> <a href="http://www.theverge.com/2013/11/7/5078560/over-150-million-breached-records-from-adobe-hack-surface-online">last</a> <a href="http://qz.com/371676/hackers-breached-slacks-database-containing-users-contact-information-and-passwords/">few</a> <a href="http://gawker.com/whats-actually-inside-the-nightmare-ashley-madison-leak-1725077740">years</a>. In addition to covering the ways password storage has been done wrong, I also present the best solutions. Instead of recapping it again, take a look at <a href="http://codahale.com/how-to-safely-store-a-password/">Coda Hale&rsquo;s blog post</a> on the topic.</p>
 <p>A few brave souls will occasionally come up to me later and admit their company still stores passwords in a less than ideal way. There are many reasons for this, but they generally boil down to the fact that the software is old and developers just didn&rsquo;t know any better when they wrote that part of the system.</p>
 <p>When talking to them about how they plan to solve it, most come up with roughly the same solution: when a user logs in, transparently write an updated <code>bcrypt</code> version of the password to the database. The problem with this solution is that users don&rsquo;t benefit from the new system if they never log in. When teams upgrade their passwords this way, they will often look back years later and find that some users never logged in again. This is especially true in consumer products.</p>
