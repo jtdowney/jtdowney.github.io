@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ruby on John Downey</title>
+    <title>Ruby on John Downey</title>
     <link>/tags/ruby/</link>
-    <description>John Downey (ruby)</description>
+    <description>John Downey (Ruby)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Aug 2013 00:00:00 +0000</lastBuildDate>
