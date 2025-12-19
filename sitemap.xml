@@ -2,47 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/blog/</loc>
+    <loc>/blog/</loc>
     <lastmod>2025-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/books/</loc>
+    <loc>/tags/books/</loc>
     <lastmod>2025-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>/</loc>
     <lastmod>2025-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/reading/</loc>
+    <loc>/tags/reading/</loc>
     <lastmod>2025-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/2025/12/18/so-i-got-back-into-reading/</loc>
+    <loc>/blog/2025/12/18/so-i-got-back-into-reading/</loc>
     <lastmod>2025-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2025-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/2015/11/01/dont-wait-to-fix-your-password-storage/</loc>
+    <loc>/blog/2015/11/01/dont-wait-to-fix-your-password-storage/</loc>
     <lastmod>2015-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/passwords/</loc>
+    <loc>/tags/passwords/</loc>
     <lastmod>2015-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/security/</loc>
+    <loc>/tags/security/</loc>
     <lastmod>2015-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/cryptography/</loc>
+    <loc>/tags/cryptography/</loc>
     <lastmod>2013-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/gem/</loc>
+    <loc>/tags/gem/</loc>
     <lastmod>2013-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/2013/08/01/introducing-trustworthy/</loc>
+    <loc>/blog/2013/08/01/introducing-trustworthy/</loc>
     <lastmod>2013-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/ruby/</loc>
+    <loc>/tags/ruby/</loc>
     <lastmod>2013-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/about/</loc>
+    <loc>/about/</loc>
   </url><url>
-    <loc>//localhost:1313/presentations/</loc>
+    <loc>/presentations/</loc>
   </url>
 </urlset>

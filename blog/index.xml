@@ -2,41 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on John Downey</title>
-    <link>//localhost:1313/blog/</link>
+    <link>/blog/</link>
     <description>John Downey (Blogs)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 18 Dec 2025 00:00:00 +0000</lastBuildDate>
     
-    <atom:link href="//localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>So I Got Back Into Reading</title>
-      <link>//localhost:1313/blog/2025/12/18/so-i-got-back-into-reading/</link>
+      <link>/blog/2025/12/18/so-i-got-back-into-reading/</link>
       <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/blog/2025/12/18/so-i-got-back-into-reading/</guid>
+      <guid>/blog/2025/12/18/so-i-got-back-into-reading/</guid>
       <description>&lt;p&gt;I started the year with a reading goal of 12 books because I was trying to become a person who reads again. One a month felt realistic. It was a way to commit without pretending I knew exactly how it would fit into real life.&lt;/p&gt;
 &lt;p&gt;Once it was obvious I was going to clear 12, I escalated the goal to 26. One every two weeks felt like a useful constraint, the kind that nudges you forward without turning a hobby into a performance review.&lt;/p&gt;
 &lt;p&gt;Part of that was making the process visible. After reading &lt;em&gt;Real-World Kanban&lt;/em&gt;, I started tracking my reading in a simple kanban board in Obsidian. It wasn&amp;rsquo;t meant to be fancy, just a way to see what was next. I wasn&amp;rsquo;t trying to optimize reading. I was trying to remove the conditions under which I reliably stop.&lt;/p&gt;
 &lt;h2 id=&#34;the-mixed-bookshelf-experiment&#34;&gt;The Mixed Bookshelf Experiment&lt;/h2&gt;
-&lt;p&gt;At some point I found myself reading three books at the same time: one fiction, one nonfiction, and one &amp;ldquo;technical.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;At some point I found myself reading three books at the same time: one fiction, one non-fiction, and one &amp;ldquo;technical.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;Technical&amp;rdquo; is doing some work here. I took liberties with the label. What I mean is something related to the technology world I work in. Sometimes that was hard technical material. Sometimes it was systems, incentives, and the broader social dynamics around technology.&lt;/p&gt;
 &lt;p&gt;I did not start the year with a mandate about balanced reading. I started with the problem that some books were harder to get through, and I didn&amp;rsquo;t want to simply skip them. I needed a way to keep moving without forcing every reading session to be a test of discipline.&lt;/p&gt;
-&lt;p&gt;The three-track setup solved that in a way I didn&amp;rsquo;t expect. Fiction became the relief valve. Nonfiction became the &amp;ldquo;keep me honest&amp;rdquo; lane. Technical books became the &amp;ldquo;I still like my field&amp;rdquo; lane, with occasional reminders to step away and reset.&lt;/p&gt;
+&lt;p&gt;The three-track setup solved that in a way I didn&amp;rsquo;t expect. Fiction became the relief valve. non-fiction became the &amp;ldquo;keep me honest&amp;rdquo; lane. Technical books became the &amp;ldquo;I still like my field&amp;rdquo; lane, with occasional reminders to step away and reset.&lt;/p&gt;
 &lt;p&gt;The surprising part was how often the books talked to each other.&lt;/p&gt;
+&lt;p&gt;That overlap mattered because it made switching feel less like interruption and more like continuing the same set of questions from a different angle.&lt;/p&gt;
 &lt;h2 id=&#34;chapter-switching&#34;&gt;Chapter Switching&lt;/h2&gt;
 &lt;p&gt;I did not rotate by book. I rotated by chapter.&lt;/p&gt;
-&lt;p&gt;One chapter of fiction. Next session, one chapter of nonfiction. Next, one chapter of technical. Then back around. Sometimes I read two fiction chapters in a row if I was tired or if the book had momentum. Sometimes I stalled on a technical chapter and tried to negotiate my way through it. But the default rule was simple: never let any one book monopolize the time.&lt;/p&gt;
+&lt;p&gt;One chapter of fiction. Next session, one chapter of non-fiction. Next, one chapter of technical. Then back around. Sometimes I read two fiction chapters in a row if I was tired or if the book had momentum. Sometimes I stalled on a technical chapter and tried to negotiate my way through it. But the default rule was simple: never let any one book monopolize the time.&lt;/p&gt;
 &lt;p&gt;This wasn&amp;rsquo;t a grand plan at the start. It emerged as a coping mechanism. I would hit a dense or resistant section, lose momentum, and pick up something else &amp;ldquo;just for now.&amp;rdquo; Over time it became obvious that &amp;ldquo;just for now&amp;rdquo; was the only reason I kept moving forward at all. So I stopped treating it as accidental and made it the system.&lt;/p&gt;
 &lt;p&gt;Switching by chapter lowered the activation energy. I was never starting from zero. I was always resuming. More importantly, it prevented the specific kind of burnout where reading starts to feel like obligation instead of curiosity.&lt;/p&gt;
-&lt;h2 id=&#34;what-worked-what-didnt-and-why-im-keeping-it-anyway&#34;&gt;What Worked, What Didn&amp;rsquo;t, and Why I&amp;rsquo;m Keeping It Anyway&lt;/h2&gt;
+&lt;h2 id=&#34;what-worked-what-didnt&#34;&gt;What Worked, What Didn&amp;rsquo;t&lt;/h2&gt;
 &lt;p&gt;This approach was not magic. It was a trade.&lt;/p&gt;
 &lt;p&gt;What it gave me, more than anything, was momentum. I stopped waiting for the perfect mood to read a hard chapter. Instead, I read a chapter, any chapter, and trusted that I could switch to something more forgiving next time. That alone kept books moving that would have otherwise stalled.&lt;/p&gt;
 &lt;p&gt;Dense books became survivable. Not easy, but survivable. I didn&amp;rsquo;t have to face them in long, unbroken stretches, which meant I actually finished material I would normally abandon with good intentions and vague guilt.&lt;/p&gt;
 &lt;p&gt;Fiction, unexpectedly, got better. Treating it as a relief valve changed how I showed up to it. I wasn&amp;rsquo;t asking it to be profound or instructive or secretly improve me. I let it be enjoyable. As it turns out, that&amp;rsquo;s when it tends to work best.&lt;/p&gt;
-&lt;p&gt;The categories also trained different parts of my attention. Technical reading sharpened my tolerance for precision and careful thinking. Nonfiction kept me grounded in incentives and reality. Fiction kept reminding me that people do not behave like tidy models. Switching between them made each feel sharper by contrast.&lt;/p&gt;
+&lt;p&gt;The categories also trained different parts of my attention. Technical reading sharpened my tolerance for precision and careful thinking. non-fiction kept me grounded in incentives and reality. Fiction kept reminding me that people do not behave like tidy models. Switching between them made each feel sharper by contrast.&lt;/p&gt;
 &lt;p&gt;There were real downsides. Some books want immersion, and chapter switching works against that. When a book&amp;rsquo;s power is cumulative, breaking it up can flatten the emotional arc or dull the atmosphere. I also occasionally lost track of my own mental context and had to pause and ask whether I was reading about institutional trust, institutional collapse, or institutional collapse driven by incentives in technology. The answer was often all three.&lt;/p&gt;
 &lt;p&gt;Big emotional moments sometimes landed softer than they might have otherwise. It&amp;rsquo;s hard to sit with the aftermath of a powerful scene when the next chapter is about process design or the political economy of a complex system.&lt;/p&gt;
 &lt;p&gt;Still, it was a clear net positive. The biggest win wasn&amp;rsquo;t efficiency or volume. It was psychological. I stopped treating difficulty as a reason to quit. Difficulty became just another lane in the rotation, not a stop sign.&lt;/p&gt;
@@ -45,117 +46,143 @@
 &lt;p&gt;The first was power, especially in its modern, technical forms. Who has it, how they explain it to themselves, and what happens when systems grow large enough that responsibility becomes abstract. A lot of writing about AI, tech companies, and institutions isn&amp;rsquo;t really about technology at all. It&amp;rsquo;s about governance, incentives, and what people do when they believe their decisions are inevitable rather than chosen.&lt;/p&gt;
 &lt;p&gt;The second theme was trust. How it&amp;rsquo;s built, how it erodes, and how often it gets confused with compliance or silence. This showed up explicitly in some books and implicitly in others, from organizational dynamics to public institutions to personal relationships. Once I started noticing it, it was hard not to see how much of modern life runs on borrowed trust and how fragile that arrangement can be.&lt;/p&gt;
 &lt;p&gt;The third was meaning under constraint. The human problem of trying to live a finite life inside systems designed for infinite growth, infinite feeds, and infinite optimization. Several books, in very different ways, wrestled with what it means to act well, stay sane, and avoid cynicism when the surrounding machinery is indifferent at best and actively corrosive at worst.&lt;/p&gt;
-&lt;p&gt;None of this is especially novel. What felt new was watching these themes echo across fiction, nonfiction, and technical reading in the same year.&lt;/p&gt;
+&lt;p&gt;None of this is especially novel. What felt new was watching these themes echo across fiction, non-fiction, and technical reading in the same year.&lt;/p&gt;
 &lt;h2 id=&#34;the-books-in-the-order-i-finished-them&#34;&gt;The Books, in the Order I Finished Them&lt;/h2&gt;
 &lt;p&gt;I&amp;rsquo;m listing these chronologically, with the category I used while reading. The notes are honest, but I&amp;rsquo;m not here to litigate novels.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;[Technical] &lt;em&gt;A Philosophy of Software Design&lt;/em&gt; (John Ousterhout)&lt;/strong&gt;
-I started reading this because several colleagues were reading it around the same time. The book reinforced some instincts I already had and introduced a few new ways of thinking about complexity, boundaries, and design tradeoffs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;A Philosophy of Software Design&lt;/em&gt; (John Ousterhout)&lt;/strong&gt; #technical&lt;/p&gt;
+&lt;p&gt;A guide to managing complexity in software through better design decisions.&lt;/p&gt;
+&lt;p&gt;I started reading this because several colleagues were reading it around the same time. The book reinforced some instincts I already had and introduced a few new ways of thinking about complexity, boundaries, and design tradeoffs.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;[Nonfiction] &lt;em&gt;On Tyranny&lt;/em&gt; (Timothy Snyder)&lt;/strong&gt;
-I read this as part of a book club that, like many book clubs, had exactly one meeting. What struck me most was the timing. The book focuses on the first Trump administration, but I was reading it during the early days of the second. That made it feel less like a warning and more like a replay.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;On Tyranny&lt;/em&gt; (Timothy Snyder)&lt;/strong&gt; #non-fiction&lt;/p&gt;
+&lt;p&gt;Twenty lessons on resisting authoritarianism, drawn from 20th-century history.&lt;/p&gt;
+&lt;p&gt;I read this as part of a book club that, like many book clubs, had exactly one meeting. What struck me most was the timing. The book focuses on the first Trump administration, but I was reading it during the early days of the second. That made it feel less like a warning and more like a replay.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;[Technical] &lt;em&gt;Real-World Kanban&lt;/em&gt; (Mattias Skarin)&lt;/strong&gt;
-This was a concise refresher on Kanban as a process. More importantly, it nudged me to set up a kanban board for my reading, which ended up shaping the entire year more than I expected.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Real-World Kanban&lt;/em&gt; (Mattias Skarin)&lt;/strong&gt; #technical&lt;/p&gt;
+&lt;p&gt;Case studies and practical guidance on implementing Kanban workflow systems.&lt;/p&gt;
+&lt;p&gt;This was a concise refresher on Kanban as a process. More importantly, it nudged me to set up a kanban board for my reading, which ended up shaping the entire year more than I expected.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;[Fiction] &lt;em&gt;Wool&lt;/em&gt; (Hugh Howey)&lt;/strong&gt;
-This was a book I had started and abandoned more than once. I picked it back up after watching the Silo TV series on Apple TV. I&amp;rsquo;m glad I finally finished it. It was an easy world to settle into.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Wool&lt;/em&gt; (Hugh Howey)&lt;/strong&gt; #fiction&lt;/p&gt;
+&lt;p&gt;Post-apocalyptic sci-fi about humanity surviving in an underground silo, forbidden from knowing what&amp;rsquo;s outside.&lt;/p&gt;
+&lt;p&gt;This was a book I had started and abandoned more than once. I picked it back up after watching the &lt;em&gt;Silo&lt;/em&gt; TV series on Apple TV. I&amp;rsquo;m glad I finally finished it. It was an easy world to settle into.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;[Fiction] &lt;em&gt;All Systems Red&lt;/em&gt; (Martha Wells)&lt;/strong&gt;
-I picked this up because of the Murderbot adaptation. It was quick, engaging, and easy to return to. I ended up reading several books in the series and still have more to come back to.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;All Systems Red&lt;/em&gt; (Martha Wells)&lt;/strong&gt; #fiction&lt;/p&gt;
+&lt;p&gt;A sci-fi novella about a socially anxious security robot who hacks its own governor module and just wants to watch TV.&lt;/p&gt;
+&lt;p&gt;I picked this up because of the Murderbot adaptation. It was quick, engaging, and easy to return to. I ended up reading several books in the series and still have more to come back to.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;[Nonfiction] &lt;em&gt;Punishment-Free Parenting&lt;/em&gt; (Jon Fogel)&lt;/strong&gt;
-I found this through TikTok, which was unexpected. My son exhibits some challenging behaviors as an ADHD, hyperactive kid, which feels familiar for obvious reasons. This book reinforced a gentler approach and gave me language for things I was already trying to do intuitively.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Punishment-Free Parenting&lt;/em&gt; (Jon Fogel)&lt;/strong&gt; #non-fiction&lt;/p&gt;
+&lt;p&gt;A parenting approach centered on connection and understanding rather than discipline and consequences.&lt;/p&gt;
+&lt;p&gt;I found this through TikTok, which was unexpected. My son exhibits some challenging behaviors as an ADHD, hyperactive kid, which feels familiar for obvious reasons. This book reinforced a gentler approach and gave me language for things I was already trying to do intuitively.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;[Fiction] &lt;em&gt;Artificial Condition&lt;/em&gt; (Martha Wells)&lt;/strong&gt;
-This continued the Murderbot streak. It did its job as reliable, low-friction fiction when other books were heavier.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Artificial Condition&lt;/em&gt; (Martha Wells)&lt;/strong&gt; #fiction&lt;/p&gt;
+&lt;p&gt;The second Murderbot novella, featuring an unlikely partnership with a research transport ship.&lt;/p&gt;
+&lt;p&gt;This continued the Murderbot streak. It did its job as reliable, low-friction fiction when other books were heavier.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;[Technical] &lt;em&gt;Design and Implementation of the FreeBSD Operating System&lt;/em&gt; (Marshall Kirk McKusick, George V. Neville-Neil)&lt;/strong&gt;
-I first picked this up about ten years ago, put it down, and then restarted it recently. It is dense and demanding. I&amp;rsquo;m glad I finished it, but it&amp;rsquo;s very much a book you respect as much as you enjoy.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Design and Implementation of the FreeBSD Operating System&lt;/em&gt; (Marshall Kirk McKusick, George V. Neville-Neil)&lt;/strong&gt; #technical&lt;/p&gt;
+&lt;p&gt;A comprehensive technical reference on FreeBSD&amp;rsquo;s kernel architecture and internals.&lt;/p&gt;
+&lt;p&gt;I first picked this up about ten years ago, put it down, and then restarted it recently. It is dense and demanding. I&amp;rsquo;m glad I finished it, but it&amp;rsquo;s very much a book you respect as much as you enjoy.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;[Fiction] &lt;em&gt;Rogue Protocol&lt;/em&gt; (Martha Wells)&lt;/strong&gt;
-More Murderbot. Still effective as a pressure-release valve.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Rogue Protocol&lt;/em&gt; (Martha Wells)&lt;/strong&gt; #fiction&lt;/p&gt;
+&lt;p&gt;The third Murderbot novella, involving a decommissioned terraforming facility and corporate espionage.&lt;/p&gt;
+&lt;p&gt;Still effective as a pressure-release valve.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;[Nonfiction] &lt;em&gt;Careless People&lt;/em&gt; (Sarah Wynn-Williams)&lt;/strong&gt;
-This kicked off a theme around modern social media companies and their influence on behavior. Reading it from a trust and safety perspective made it feel uncomfortably concrete.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Careless People&lt;/em&gt; (Sarah Wynn-Williams)&lt;/strong&gt; #non-fiction&lt;/p&gt;
+&lt;p&gt;A memoir about working at Meta and the company&amp;rsquo;s handling of global crises, misinformation, and trust and safety.&lt;/p&gt;
+&lt;p&gt;This kicked off a theme around modern social media companies and their influence on behavior. Reading it from a trust and safety perspective made it feel uncomfortably concrete.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;[Fiction] &lt;em&gt;Project Hail Mary&lt;/em&gt; (Andy Weir)&lt;/strong&gt;
-I owned this for years before finally reading it. A movie trailer spoiled a major reveal for me, but it was still a very readable book.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Project Hail Mary&lt;/em&gt; (Andy Weir)&lt;/strong&gt; #fiction&lt;/p&gt;
+&lt;p&gt;A sci-fi novel about an astronaut who wakes up alone on a spaceship with no memory, tasked with saving Earth from an extinction-level threat.&lt;/p&gt;
+&lt;p&gt;I owned this for years before finally reading it. A movie trailer spoiled a major reveal for me, but it was still a very readable book.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;[Fiction] &lt;em&gt;Ministry of Time&lt;/em&gt; (Kaliane Bradley)&lt;/strong&gt;
-Recommended by a friend. It took a little time to settle into, but it ended up being a pleasant surprise and a good counterbalance to heavier nonfiction.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Ministry of Time&lt;/em&gt; (Kaliane Bradley)&lt;/strong&gt; #fiction&lt;/p&gt;
+&lt;p&gt;A novel about a government time-travel program that pairs civil servants with &amp;ldquo;expats&amp;rdquo; pulled from the past, told through a slow-burn romance.&lt;/p&gt;
+&lt;p&gt;Recommended by a friend. It took a little time to settle into, but it ended up being a pleasant surprise and a good counterbalance to heavier non-fiction.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;[Fiction] &lt;em&gt;Orbital&lt;/em&gt; (Samantha Harvey)&lt;/strong&gt;
-This was the closest I came to not finishing a book this year. It didn&amp;rsquo;t click for me. It felt more descriptive than cumulative.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Orbital&lt;/em&gt; (Samantha Harvey)&lt;/strong&gt; #fiction&lt;/p&gt;
+&lt;p&gt;A literary novel following astronauts on the International Space Station over a single day.&lt;/p&gt;
+&lt;p&gt;This was the closest I came to not finishing a book this year. It didn&amp;rsquo;t click for me. It felt more descriptive than cumulative.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;[Nonfiction] &lt;em&gt;In This Economy?&lt;/em&gt; (Kyla Scanlon)&lt;/strong&gt;
-Another TikTok find that paid off. It helped contextualize a lot of ambient economic anxiety without talking down to the reader.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;In This Economy?&lt;/em&gt; (Kyla Scanlon)&lt;/strong&gt; #non-fiction&lt;/p&gt;
+&lt;p&gt;An accessible explainer on modern economic anxiety, inflation, and how the economy actually works.&lt;/p&gt;
+&lt;p&gt;Another TikTok find that paid off. It helped contextualize a lot of ambient economic anxiety without talking down to the reader.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;[Technical] &lt;em&gt;Cybersecurity Myths and Misconceptions&lt;/em&gt; (Spafford, Metcalf, Dykstra)&lt;/strong&gt;
-This lands close to my day-to-day work. I picked up several useful framing tools and anecdotes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Cybersecurity Myths and Misconceptions&lt;/em&gt; (Eugene H. Spafford, Leigh Metcalf, Josiah Dykstra)&lt;/strong&gt; #technical&lt;/p&gt;
+&lt;p&gt;A book debunking common security fallacies and offering better mental models for thinking about risk.&lt;/p&gt;
+&lt;p&gt;This lands close to my day-to-day work. I picked up several useful framing tools and anecdotes.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;[Technical] &lt;em&gt;Working in Public&lt;/em&gt; (Nadia Eghbal)&lt;/strong&gt;
-I hoped for a broader examination of open source, but it focused heavily on GitHub-centric models. Still useful for understanding incentives and sustainability.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Working in Public&lt;/em&gt; (Nadia Eghbal)&lt;/strong&gt; #technical&lt;/p&gt;
+&lt;p&gt;An analysis of how open source software gets maintained and the economics of maintainer labor.&lt;/p&gt;
+&lt;p&gt;I hoped for a broader examination of open source, but it focused heavily on GitHub-centric models. Still useful for understanding incentives and sustainability.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;[Technical] &lt;em&gt;The Scaling Era&lt;/em&gt; (Dwarkesh Patel)&lt;/strong&gt;
-I preordered this and read it at exactly the right moment. The interview format made complex ideas easier to engage with over time.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;The Scaling Era&lt;/em&gt; (Dwarkesh Patel)&lt;/strong&gt; #technical&lt;/p&gt;
+&lt;p&gt;A collection of interviews exploring AI scaling, progress, and its implications.&lt;/p&gt;
+&lt;p&gt;I preordered this when it was announced because I am a fan of the Dwarkesh podcast. The interview format made complex ideas easier to engage with over time.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;[Nonfiction] &lt;em&gt;Empire of AI&lt;/em&gt; (Karen Hao)&lt;/strong&gt;
-I sought this out to balance more optimistic AI material. It grounded abstract conversations in real consequences.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Empire of AI&lt;/em&gt; (Karen Hao)&lt;/strong&gt; #non-fiction&lt;/p&gt;
+&lt;p&gt;An investigation into AI&amp;rsquo;s global impact, focusing on labor exploitation, geopolitics, and the human costs behind the technology.&lt;/p&gt;
+&lt;p&gt;I sought this out to balance more optimistic AI material. It grounded abstract conversations in real consequences.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;[Nonfiction] &lt;em&gt;Abundance&lt;/em&gt; (Ezra Klein, Derek Thompson)&lt;/strong&gt;
-Solid and thoughtful. I don&amp;rsquo;t agree with everything, but it was useful to engage with early.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Abundance&lt;/em&gt; (Ezra Klein, Derek Thompson)&lt;/strong&gt; #non-fiction&lt;/p&gt;
+&lt;p&gt;A policy argument for removing the barriers that prevent building housing, energy infrastructure, and other necessities.&lt;/p&gt;
+&lt;p&gt;Solid and thoughtful. I don&amp;rsquo;t agree with everything, but it was useful to engage with as this will clearly be a topic of discourse in left politics.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;[Nonfiction] &lt;em&gt;The Thin Book of Trust&lt;/em&gt; (Charles Feltman)&lt;/strong&gt;
-A shared read across my company&amp;rsquo;s leadership team. Concise, practical, and memorable.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;The Thin Book of Trust&lt;/em&gt; (Charles Feltman)&lt;/strong&gt; #non-fiction&lt;/p&gt;
+&lt;p&gt;A concise guide to building and repairing trust in professional relationships through four key behaviors.&lt;/p&gt;
+&lt;p&gt;A shared read across my company&amp;rsquo;s leadership team. Concise, practical, and memorable with a useful framework for understanding trust dynamics.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;[Fiction] &lt;em&gt;The Mountain and the Sea&lt;/em&gt; (Ray Nayler)&lt;/strong&gt;
-One of my favorite fiction reads of the year. It intersected beautifully with questions about AI and consciousness.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;The Mountain in the Sea&lt;/em&gt; (Ray Nayler)&lt;/strong&gt; #fiction&lt;/p&gt;
+&lt;p&gt;A novel about an octopus species that develops intelligence, and the scientists and corporations racing to understand or exploit it.&lt;/p&gt;
+&lt;p&gt;One of my favorite fiction reads of the year. It intersected beautifully with questions about AI and consciousness.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;[Nonfiction] &lt;em&gt;Four Thousand Weeks&lt;/em&gt; (Oliver Burkeman)&lt;/strong&gt;
-Some strong ideas around finitude, though parts didn&amp;rsquo;t land as deeply as I expected.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Four Thousand Weeks&lt;/em&gt; (Oliver Burkeman)&lt;/strong&gt; #non-fiction&lt;/p&gt;
+&lt;p&gt;A time-management book that argues for accepting our finite lifespans rather than endlessly optimizing productivity.&lt;/p&gt;
+&lt;p&gt;Some strong ideas around finitude, though parts didn&amp;rsquo;t land as deeply as I expected.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;[Fiction] &lt;em&gt;Mickey7&lt;/em&gt; (Edward Ashton)&lt;/strong&gt;
-I preferred the book&amp;rsquo;s narrative arc to the movie. I enjoyed it enough to immediately pick up the sequel.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Mickey7&lt;/em&gt; (Edward Ashton)&lt;/strong&gt; #fiction&lt;/p&gt;
+&lt;p&gt;A sci-fi novel about a disposable clone on a colonization mission, designed to die repeatedly for dangerous tasks until something goes wrong.&lt;/p&gt;
+&lt;p&gt;I had added this to my list after seeing the movie and I preferred the book&amp;rsquo;s narrative arc to the movie. I enjoyed it enough to immediately pick up the sequel, &lt;em&gt;Antimatter Blues&lt;/em&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;[Nonfiction] &lt;em&gt;Extremely Hardcore&lt;/em&gt; (Zoë Schiffer)&lt;/strong&gt;
-The insider details added texture to events I already broadly knew.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Extremely Hardcore&lt;/em&gt; (Zoë Schiffer)&lt;/strong&gt; #non-fiction&lt;/p&gt;
+&lt;p&gt;An inside account of Elon Musk&amp;rsquo;s acquisition of Twitter and the chaos that followed.&lt;/p&gt;
+&lt;p&gt;The insider details added texture to events I already broadly knew.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;[Nonfiction] &lt;em&gt;A Paradise Built in Hell&lt;/em&gt; (Rebecca Solnit)&lt;/strong&gt;
-Given my work at GoFundMe, my interest in mutual aid isn&amp;rsquo;t surprising. The core argument stayed with me even where the framing felt heavy.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;A Paradise Built in Hell&lt;/em&gt; (Rebecca Solnit)&lt;/strong&gt; #non-fiction&lt;/p&gt;
+&lt;p&gt;A book arguing that disasters bring out cooperation and mutual aid rather than the chaos and looting we expect.&lt;/p&gt;
+&lt;p&gt;Given my work at GoFundMe, my interest in mutual aid isn&amp;rsquo;t surprising. The core argument stayed with me even where the framing felt heavy.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;[Nonfiction] &lt;em&gt;Going Infinite&lt;/em&gt; (Michael Lewis)&lt;/strong&gt;
-Familiar ground, but compellingly told. I partially agree with the idea that Sam Bankman-Fried didn&amp;rsquo;t start with explicit criminal intent, but with overconfidence and a belief that discipline was optional.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Going Infinite&lt;/em&gt; (Michael Lewis)&lt;/strong&gt; #non-fiction&lt;/p&gt;
+&lt;p&gt;Michael Lewis&amp;rsquo;s account of Sam Bankman-Fried&amp;rsquo;s rise and the collapse of FTX.&lt;/p&gt;
+&lt;p&gt;Familiar ground, but compellingly told. I partially agree with the idea that Sam Bankman-Fried didn&amp;rsquo;t start with explicit criminal intent, but with overconfidence and a belief that discipline was optional because he was a genius.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;personal-rules-im-keeping-next-year&#34;&gt;Personal Rules I&amp;rsquo;m Keeping Next Year&lt;/h2&gt;
-&lt;p&gt;I&amp;rsquo;m keeping the three-track rotation: one fiction, one nonfiction, one technical. It prevents stalls from turning into full stops.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m keeping the three-track rotation: one fiction, one non-fiction, one technical. It prevents stalls from turning into full stops.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m keeping chapter switching, with permission to cheat. The structure matters. The rigidity does not. The goal is continued contact, not a perfect cadence.&lt;/p&gt;
 &lt;p&gt;Fiction stays the relief valve. I&amp;rsquo;m allowed to enjoy it without trying to extract a moral.&lt;/p&gt;
 &lt;p&gt;Technical stays broad. If it helps me think clearly about technology, incentives, systems, or how work actually happens, it counts.&lt;/p&gt;
@@ -165,10 +192,10 @@ Familiar ground, but compellingly told. I partially agree with the idea that Sam
     
     <item>
       <title>Don&#39;t wait to fix your password storage</title>
-      <link>//localhost:1313/blog/2015/11/01/dont-wait-to-fix-your-password-storage/</link>
+      <link>/blog/2015/11/01/dont-wait-to-fix-your-password-storage/</link>
       <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/blog/2015/11/01/dont-wait-to-fix-your-password-storage/</guid>
+      <guid>/blog/2015/11/01/dont-wait-to-fix-your-password-storage/</guid>
       <description>&lt;p&gt;Over the past few years, I have given a talk on Cryptography Pitfalls at a variety of conferences. One section of the talk covers the evolution of password storage and the &lt;a href=&#34;http://arstechnica.com/security/2012/06/8-million-leaked-passwords-connected-to-linkedin/&#34;&gt;various&lt;/a&gt; &lt;a href=&#34;http://www.cnet.com/news/last-fm-warns-users-of-password-leak/&#34;&gt;data&lt;/a&gt; &lt;a href=&#34;http://www.cnn.com/2012/07/12/tech/web/yahoo-users-hacked/&#34;&gt;breaches&lt;/a&gt; &lt;a href=&#34;http://bgr.com/2014/05/27/ebay-hack-145-million-accounts-compromised/&#34;&gt;the&lt;/a&gt; &lt;a href=&#34;http://www.theverge.com/2013/11/7/5078560/over-150-million-breached-records-from-adobe-hack-surface-online&#34;&gt;last&lt;/a&gt; &lt;a href=&#34;http://qz.com/371676/hackers-breached-slacks-database-containing-users-contact-information-and-passwords/&#34;&gt;few&lt;/a&gt; &lt;a href=&#34;http://gawker.com/whats-actually-inside-the-nightmare-ashley-madison-leak-1725077740&#34;&gt;years&lt;/a&gt;. In addition to covering the ways password storage has been done wrong, I also present the best solutions. Instead of recapping it again, take a look at &lt;a href=&#34;http://codahale.com/how-to-safely-store-a-password/&#34;&gt;Coda Hale&amp;rsquo;s blog post&lt;/a&gt; on the topic.&lt;/p&gt;
 &lt;p&gt;A few brave souls will occasionally come up to me later and admit their company still stores passwords in a less than ideal way. There are many reasons for this, but they generally boil down to the fact that the software is old and developers just didn&amp;rsquo;t know any better when they wrote that part of the system.&lt;/p&gt;
 &lt;p&gt;When talking to them about how they plan to solve it, most come up with roughly the same solution: when a user logs in, transparently write an updated &lt;code&gt;bcrypt&lt;/code&gt; version of the password to the database. The problem with this solution is that users don&amp;rsquo;t benefit from the new system if they never log in. When teams upgrade their passwords this way, they will often look back years later and find that some users never logged in again. This is especially true in consumer products.&lt;/p&gt;
@@ -185,10 +212,10 @@ Familiar ground, but compellingly told. I partially agree with the idea that Sam
     
     <item>
       <title>Introducing Trustworthy</title>
-      <link>//localhost:1313/blog/2013/08/01/introducing-trustworthy/</link>
+      <link>/blog/2013/08/01/introducing-trustworthy/</link>
       <pubDate>Thu, 01 Aug 2013 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/blog/2013/08/01/introducing-trustworthy/</guid>
+      <guid>/blog/2013/08/01/introducing-trustworthy/</guid>
       <description>&lt;p&gt;We&amp;rsquo;ve all seen the tense scene in a war movie where the order has come down to launch the nuclear missiles. The captain and his first officer each take out a special key they&amp;rsquo;ve had around their neck the whole time. Then they both insert their individual keys into the weapons computer and turn simultaneously. Despite being a popular motif, this is a &lt;a href=&#34;http://en.wikipedia.org/wiki/Two_man_rule&#34;&gt;real policy&lt;/a&gt; implemented by many military organizations, including the U.S. Air Force. Once you think about it this kind of policy is obvious, one person shouldn&amp;rsquo;t be able to launch nuclear weapons on their own. Trustworthy is like having a two-man rule for your data.&lt;/p&gt;
 &lt;h2 id=&#34;how-it-works&#34;&gt;How it works&lt;/h2&gt;
 &lt;p&gt;Trustworthy is implemented as a &lt;a href=&#34;http://rubygems.org/gems/trustworthy&#34;&gt;ruby gem&lt;/a&gt; with the source on &lt;a href=&#34;https://github.com/jtdowney/trustworthy&#34;&gt;GitHub&lt;/a&gt;. When installed via ruby gems it creates a new command line utility named &lt;code&gt;trustworthy&lt;/code&gt;.&lt;/p&gt;
