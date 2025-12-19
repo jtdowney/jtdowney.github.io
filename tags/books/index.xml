@@ -1,38 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Books on John Downey</title>
-    <link>/tags/books/</link>
-    <description>John Downey (Books)</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 18 Dec 2025 00:00:00 +0000</lastBuildDate>
-    
-    <atom:link href="/tags/books/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>So I Got Back Into Reading</title>
-      <link>/blog/2025/12/18/so-i-got-back-into-reading/</link>
-      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/2025/12/18/so-i-got-back-into-reading/</guid>
-      <description>&lt;p&gt;I started the year with a reading goal of 12 books because I was trying to become a person who reads again. One a month felt realistic. It was a way to commit without pretending I knew exactly how it would fit into real life.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Books on John Downey</title><link>https://jtdowney.com/tags/books/</link><description>John Downey (Books)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 18 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jtdowney.com/tags/books/index.xml" rel="self" type="application/rss+xml"/><item><title>So I Got Back Into Reading</title><link>https://jtdowney.com/blog/2025/12/18/so-i-got-back-into-reading/</link><pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate><guid>https://jtdowney.com/blog/2025/12/18/so-i-got-back-into-reading/</guid><description>&lt;p&gt;I started the year with a reading goal of 12 books because I was trying to become a person who reads again. One a month felt realistic. It was a way to commit without pretending I knew exactly how it would fit into real life.&lt;/p&gt;
 &lt;p&gt;Once it was obvious I was going to clear 12, I escalated the goal to 26. One every two weeks felt like a useful constraint, the kind that nudges you forward without turning a hobby into a performance review.&lt;/p&gt;
 &lt;p&gt;Part of that was making the process visible. After reading &lt;em&gt;Real-World Kanban&lt;/em&gt;, I started tracking my reading in a simple kanban board in Obsidian. It wasn&amp;rsquo;t meant to be fancy, just a way to see what was next. I wasn&amp;rsquo;t trying to optimize reading. I was trying to remove the conditions under which I reliably stop.&lt;/p&gt;
-&lt;h2 id=&#34;the-mixed-bookshelf-experiment&#34;&gt;The Mixed Bookshelf Experiment&lt;/h2&gt;
+&lt;h2 id="the-mixed-bookshelf-experiment"&gt;The Mixed Bookshelf Experiment&lt;/h2&gt;
 &lt;p&gt;At some point I found myself reading three books at the same time: one fiction, one non-fiction, and one &amp;ldquo;technical.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;Technical&amp;rdquo; is doing some work here. I took liberties with the label. What I mean is something related to the technology world I work in. Sometimes that was hard technical material. Sometimes it was systems, incentives, and the broader social dynamics around technology.&lt;/p&gt;
 &lt;p&gt;I did not start the year with a mandate about balanced reading. I started with the problem that some books were harder to get through, and I didn&amp;rsquo;t want to simply skip them. I needed a way to keep moving without forcing every reading session to be a test of discipline.&lt;/p&gt;
 &lt;p&gt;The three-track setup solved that in a way I didn&amp;rsquo;t expect. Fiction became the relief valve. non-fiction became the &amp;ldquo;keep me honest&amp;rdquo; lane. Technical books became the &amp;ldquo;I still like my field&amp;rdquo; lane, with occasional reminders to step away and reset.&lt;/p&gt;
 &lt;p&gt;The surprising part was how often the books talked to each other.&lt;/p&gt;
 &lt;p&gt;That overlap mattered because it made switching feel less like interruption and more like continuing the same set of questions from a different angle.&lt;/p&gt;
-&lt;h2 id=&#34;chapter-switching&#34;&gt;Chapter Switching&lt;/h2&gt;
+&lt;h2 id="chapter-switching"&gt;Chapter Switching&lt;/h2&gt;
 &lt;p&gt;I did not rotate by book. I rotated by chapter.&lt;/p&gt;
 &lt;p&gt;One chapter of fiction. Next session, one chapter of non-fiction. Next, one chapter of technical. Then back around. Sometimes I read two fiction chapters in a row if I was tired or if the book had momentum. Sometimes I stalled on a technical chapter and tried to negotiate my way through it. But the default rule was simple: never let any one book monopolize the time.&lt;/p&gt;
 &lt;p&gt;This wasn&amp;rsquo;t a grand plan at the start. It emerged as a coping mechanism. I would hit a dense or resistant section, lose momentum, and pick up something else &amp;ldquo;just for now.&amp;rdquo; Over time it became obvious that &amp;ldquo;just for now&amp;rdquo; was the only reason I kept moving forward at all. So I stopped treating it as accidental and made it the system.&lt;/p&gt;
 &lt;p&gt;Switching by chapter lowered the activation energy. I was never starting from zero. I was always resuming. More importantly, it prevented the specific kind of burnout where reading starts to feel like obligation instead of curiosity.&lt;/p&gt;
-&lt;h2 id=&#34;what-worked-what-didnt&#34;&gt;What Worked, What Didn&amp;rsquo;t&lt;/h2&gt;
+&lt;h2 id="what-worked-what-didnt"&gt;What Worked, What Didn&amp;rsquo;t&lt;/h2&gt;
 &lt;p&gt;This approach was not magic. It was a trade.&lt;/p&gt;
 &lt;p&gt;What it gave me, more than anything, was momentum. I stopped waiting for the perfect mood to read a hard chapter. Instead, I read a chapter, any chapter, and trusted that I could switch to something more forgiving next time. That alone kept books moving that would have otherwise stalled.&lt;/p&gt;
 &lt;p&gt;Dense books became survivable. Not easy, but survivable. I didn&amp;rsquo;t have to face them in long, unbroken stretches, which meant I actually finished material I would normally abandon with good intentions and vague guilt.&lt;/p&gt;
@@ -41,13 +22,13 @@
 &lt;p&gt;There were real downsides. Some books want immersion, and chapter switching works against that. When a book&amp;rsquo;s power is cumulative, breaking it up can flatten the emotional arc or dull the atmosphere. I also occasionally lost track of my own mental context and had to pause and ask whether I was reading about institutional trust, institutional collapse, or institutional collapse driven by incentives in technology. The answer was often all three.&lt;/p&gt;
 &lt;p&gt;Big emotional moments sometimes landed softer than they might have otherwise. It&amp;rsquo;s hard to sit with the aftermath of a powerful scene when the next chapter is about process design or the political economy of a complex system.&lt;/p&gt;
 &lt;p&gt;Still, it was a clear net positive. The biggest win wasn&amp;rsquo;t efficiency or volume. It was psychological. I stopped treating difficulty as a reason to quit. Difficulty became just another lane in the rotation, not a stop sign.&lt;/p&gt;
-&lt;h2 id=&#34;the-themes-that-kept-showing-up-anyway&#34;&gt;The Themes That Kept Showing Up Anyway&lt;/h2&gt;
+&lt;h2 id="the-themes-that-kept-showing-up-anyway"&gt;The Themes That Kept Showing Up Anyway&lt;/h2&gt;
 &lt;p&gt;Looking back, the categories blur. Not because the books were interchangeable, but because I kept circling the same questions from different angles.&lt;/p&gt;
 &lt;p&gt;The first was power, especially in its modern, technical forms. Who has it, how they explain it to themselves, and what happens when systems grow large enough that responsibility becomes abstract. A lot of writing about AI, tech companies, and institutions isn&amp;rsquo;t really about technology at all. It&amp;rsquo;s about governance, incentives, and what people do when they believe their decisions are inevitable rather than chosen.&lt;/p&gt;
 &lt;p&gt;The second theme was trust. How it&amp;rsquo;s built, how it erodes, and how often it gets confused with compliance or silence. This showed up explicitly in some books and implicitly in others, from organizational dynamics to public institutions to personal relationships. Once I started noticing it, it was hard not to see how much of modern life runs on borrowed trust and how fragile that arrangement can be.&lt;/p&gt;
 &lt;p&gt;The third was meaning under constraint. The human problem of trying to live a finite life inside systems designed for infinite growth, infinite feeds, and infinite optimization. Several books, in very different ways, wrestled with what it means to act well, stay sane, and avoid cynicism when the surrounding machinery is indifferent at best and actively corrosive at worst.&lt;/p&gt;
 &lt;p&gt;None of this is especially novel. What felt new was watching these themes echo across fiction, non-fiction, and technical reading in the same year.&lt;/p&gt;
-&lt;h2 id=&#34;the-books-in-the-order-i-finished-them&#34;&gt;The Books, in the Order I Finished Them&lt;/h2&gt;
+&lt;h2 id="the-books-in-the-order-i-finished-them"&gt;The Books, in the Order I Finished Them&lt;/h2&gt;
 &lt;p&gt;I&amp;rsquo;m listing these chronologically, with the category I used while reading. The notes are honest, but I&amp;rsquo;m not here to litigate novels.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -181,14 +162,9 @@
 &lt;p&gt;Familiar ground, but compellingly told. I partially agree with the idea that Sam Bankman-Fried didn&amp;rsquo;t start with explicit criminal intent, but with overconfidence and a belief that discipline was optional because he was a genius.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;personal-rules-im-keeping-next-year&#34;&gt;Personal Rules I&amp;rsquo;m Keeping Next Year&lt;/h2&gt;
+&lt;h2 id="personal-rules-im-keeping-next-year"&gt;Personal Rules I&amp;rsquo;m Keeping Next Year&lt;/h2&gt;
 &lt;p&gt;I&amp;rsquo;m keeping the three-track rotation: one fiction, one non-fiction, one technical. It prevents stalls from turning into full stops.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m keeping chapter switching, with permission to cheat. The structure matters. The rigidity does not. The goal is continued contact, not a perfect cadence.&lt;/p&gt;
 &lt;p&gt;Fiction stays the relief valve. I&amp;rsquo;m allowed to enjoy it without trying to extract a moral.&lt;/p&gt;
 &lt;p&gt;Technical stays broad. If it helps me think clearly about technology, incentives, systems, or how work actually happens, it counts.&lt;/p&gt;
-&lt;p&gt;The nicest surprise this year was that reading stopped being a referendum on discipline. It became a rotation I could return to, one chapter at a time.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;p&gt;The nicest surprise this year was that reading stopped being a referendum on discipline. It became a rotation I could return to, one chapter at a time.&lt;/p&gt;</description></item></channel></rss>

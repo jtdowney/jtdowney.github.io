@@ -1,38 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Blogs on John Downey</title>
-    <link>/blog/</link>
-    <description>John Downey (Blogs)</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 18 Dec 2025 00:00:00 +0000</lastBuildDate>
-    
-    <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>So I Got Back Into Reading</title>
-      <link>/blog/2025/12/18/so-i-got-back-into-reading/</link>
-      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/2025/12/18/so-i-got-back-into-reading/</guid>
-      <description>&lt;p&gt;I started the year with a reading goal of 12 books because I was trying to become a person who reads again. One a month felt realistic. It was a way to commit without pretending I knew exactly how it would fit into real life.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blogs on John Downey</title><link>https://jtdowney.com/blog/</link><description>John Downey (Blogs)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 18 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jtdowney.com/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>So I Got Back Into Reading</title><link>https://jtdowney.com/blog/2025/12/18/so-i-got-back-into-reading/</link><pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate><guid>https://jtdowney.com/blog/2025/12/18/so-i-got-back-into-reading/</guid><description>&lt;p&gt;I started the year with a reading goal of 12 books because I was trying to become a person who reads again. One a month felt realistic. It was a way to commit without pretending I knew exactly how it would fit into real life.&lt;/p&gt;
 &lt;p&gt;Once it was obvious I was going to clear 12, I escalated the goal to 26. One every two weeks felt like a useful constraint, the kind that nudges you forward without turning a hobby into a performance review.&lt;/p&gt;
 &lt;p&gt;Part of that was making the process visible. After reading &lt;em&gt;Real-World Kanban&lt;/em&gt;, I started tracking my reading in a simple kanban board in Obsidian. It wasn&amp;rsquo;t meant to be fancy, just a way to see what was next. I wasn&amp;rsquo;t trying to optimize reading. I was trying to remove the conditions under which I reliably stop.&lt;/p&gt;
-&lt;h2 id=&#34;the-mixed-bookshelf-experiment&#34;&gt;The Mixed Bookshelf Experiment&lt;/h2&gt;
+&lt;h2 id="the-mixed-bookshelf-experiment"&gt;The Mixed Bookshelf Experiment&lt;/h2&gt;
 &lt;p&gt;At some point I found myself reading three books at the same time: one fiction, one non-fiction, and one &amp;ldquo;technical.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;Technical&amp;rdquo; is doing some work here. I took liberties with the label. What I mean is something related to the technology world I work in. Sometimes that was hard technical material. Sometimes it was systems, incentives, and the broader social dynamics around technology.&lt;/p&gt;
 &lt;p&gt;I did not start the year with a mandate about balanced reading. I started with the problem that some books were harder to get through, and I didn&amp;rsquo;t want to simply skip them. I needed a way to keep moving without forcing every reading session to be a test of discipline.&lt;/p&gt;
 &lt;p&gt;The three-track setup solved that in a way I didn&amp;rsquo;t expect. Fiction became the relief valve. non-fiction became the &amp;ldquo;keep me honest&amp;rdquo; lane. Technical books became the &amp;ldquo;I still like my field&amp;rdquo; lane, with occasional reminders to step away and reset.&lt;/p&gt;
 &lt;p&gt;The surprising part was how often the books talked to each other.&lt;/p&gt;
 &lt;p&gt;That overlap mattered because it made switching feel less like interruption and more like continuing the same set of questions from a different angle.&lt;/p&gt;
-&lt;h2 id=&#34;chapter-switching&#34;&gt;Chapter Switching&lt;/h2&gt;
+&lt;h2 id="chapter-switching"&gt;Chapter Switching&lt;/h2&gt;
 &lt;p&gt;I did not rotate by book. I rotated by chapter.&lt;/p&gt;
 &lt;p&gt;One chapter of fiction. Next session, one chapter of non-fiction. Next, one chapter of technical. Then back around. Sometimes I read two fiction chapters in a row if I was tired or if the book had momentum. Sometimes I stalled on a technical chapter and tried to negotiate my way through it. But the default rule was simple: never let any one book monopolize the time.&lt;/p&gt;
 &lt;p&gt;This wasn&amp;rsquo;t a grand plan at the start. It emerged as a coping mechanism. I would hit a dense or resistant section, lose momentum, and pick up something else &amp;ldquo;just for now.&amp;rdquo; Over time it became obvious that &amp;ldquo;just for now&amp;rdquo; was the only reason I kept moving forward at all. So I stopped treating it as accidental and made it the system.&lt;/p&gt;
 &lt;p&gt;Switching by chapter lowered the activation energy. I was never starting from zero. I was always resuming. More importantly, it prevented the specific kind of burnout where reading starts to feel like obligation instead of curiosity.&lt;/p&gt;
-&lt;h2 id=&#34;what-worked-what-didnt&#34;&gt;What Worked, What Didn&amp;rsquo;t&lt;/h2&gt;
+&lt;h2 id="what-worked-what-didnt"&gt;What Worked, What Didn&amp;rsquo;t&lt;/h2&gt;
 &lt;p&gt;This approach was not magic. It was a trade.&lt;/p&gt;
 &lt;p&gt;What it gave me, more than anything, was momentum. I stopped waiting for the perfect mood to read a hard chapter. Instead, I read a chapter, any chapter, and trusted that I could switch to something more forgiving next time. That alone kept books moving that would have otherwise stalled.&lt;/p&gt;
 &lt;p&gt;Dense books became survivable. Not easy, but survivable. I didn&amp;rsquo;t have to face them in long, unbroken stretches, which meant I actually finished material I would normally abandon with good intentions and vague guilt.&lt;/p&gt;
@@ -41,13 +22,13 @@
 &lt;p&gt;There were real downsides. Some books want immersion, and chapter switching works against that. When a book&amp;rsquo;s power is cumulative, breaking it up can flatten the emotional arc or dull the atmosphere. I also occasionally lost track of my own mental context and had to pause and ask whether I was reading about institutional trust, institutional collapse, or institutional collapse driven by incentives in technology. The answer was often all three.&lt;/p&gt;
 &lt;p&gt;Big emotional moments sometimes landed softer than they might have otherwise. It&amp;rsquo;s hard to sit with the aftermath of a powerful scene when the next chapter is about process design or the political economy of a complex system.&lt;/p&gt;
 &lt;p&gt;Still, it was a clear net positive. The biggest win wasn&amp;rsquo;t efficiency or volume. It was psychological. I stopped treating difficulty as a reason to quit. Difficulty became just another lane in the rotation, not a stop sign.&lt;/p&gt;
-&lt;h2 id=&#34;the-themes-that-kept-showing-up-anyway&#34;&gt;The Themes That Kept Showing Up Anyway&lt;/h2&gt;
+&lt;h2 id="the-themes-that-kept-showing-up-anyway"&gt;The Themes That Kept Showing Up Anyway&lt;/h2&gt;
 &lt;p&gt;Looking back, the categories blur. Not because the books were interchangeable, but because I kept circling the same questions from different angles.&lt;/p&gt;
 &lt;p&gt;The first was power, especially in its modern, technical forms. Who has it, how they explain it to themselves, and what happens when systems grow large enough that responsibility becomes abstract. A lot of writing about AI, tech companies, and institutions isn&amp;rsquo;t really about technology at all. It&amp;rsquo;s about governance, incentives, and what people do when they believe their decisions are inevitable rather than chosen.&lt;/p&gt;
 &lt;p&gt;The second theme was trust. How it&amp;rsquo;s built, how it erodes, and how often it gets confused with compliance or silence. This showed up explicitly in some books and implicitly in others, from organizational dynamics to public institutions to personal relationships. Once I started noticing it, it was hard not to see how much of modern life runs on borrowed trust and how fragile that arrangement can be.&lt;/p&gt;
 &lt;p&gt;The third was meaning under constraint. The human problem of trying to live a finite life inside systems designed for infinite growth, infinite feeds, and infinite optimization. Several books, in very different ways, wrestled with what it means to act well, stay sane, and avoid cynicism when the surrounding machinery is indifferent at best and actively corrosive at worst.&lt;/p&gt;
 &lt;p&gt;None of this is especially novel. What felt new was watching these themes echo across fiction, non-fiction, and technical reading in the same year.&lt;/p&gt;
-&lt;h2 id=&#34;the-books-in-the-order-i-finished-them&#34;&gt;The Books, in the Order I Finished Them&lt;/h2&gt;
+&lt;h2 id="the-books-in-the-order-i-finished-them"&gt;The Books, in the Order I Finished Them&lt;/h2&gt;
 &lt;p&gt;I&amp;rsquo;m listing these chronologically, with the category I used while reading. The notes are honest, but I&amp;rsquo;m not here to litigate novels.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -181,22 +162,12 @@
 &lt;p&gt;Familiar ground, but compellingly told. I partially agree with the idea that Sam Bankman-Fried didn&amp;rsquo;t start with explicit criminal intent, but with overconfidence and a belief that discipline was optional because he was a genius.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;personal-rules-im-keeping-next-year&#34;&gt;Personal Rules I&amp;rsquo;m Keeping Next Year&lt;/h2&gt;
+&lt;h2 id="personal-rules-im-keeping-next-year"&gt;Personal Rules I&amp;rsquo;m Keeping Next Year&lt;/h2&gt;
 &lt;p&gt;I&amp;rsquo;m keeping the three-track rotation: one fiction, one non-fiction, one technical. It prevents stalls from turning into full stops.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m keeping chapter switching, with permission to cheat. The structure matters. The rigidity does not. The goal is continued contact, not a perfect cadence.&lt;/p&gt;
 &lt;p&gt;Fiction stays the relief valve. I&amp;rsquo;m allowed to enjoy it without trying to extract a moral.&lt;/p&gt;
 &lt;p&gt;Technical stays broad. If it helps me think clearly about technology, incentives, systems, or how work actually happens, it counts.&lt;/p&gt;
-&lt;p&gt;The nicest surprise this year was that reading stopped being a referendum on discipline. It became a rotation I could return to, one chapter at a time.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Don&#39;t wait to fix your password storage</title>
-      <link>/blog/2015/11/01/dont-wait-to-fix-your-password-storage/</link>
-      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/2015/11/01/dont-wait-to-fix-your-password-storage/</guid>
-      <description>&lt;p&gt;Over the past few years, I have given a talk on Cryptography Pitfalls at a variety of conferences. One section of the talk covers the evolution of password storage and the &lt;a href=&#34;http://arstechnica.com/security/2012/06/8-million-leaked-passwords-connected-to-linkedin/&#34;&gt;various&lt;/a&gt; &lt;a href=&#34;http://www.cnet.com/news/last-fm-warns-users-of-password-leak/&#34;&gt;data&lt;/a&gt; &lt;a href=&#34;http://www.cnn.com/2012/07/12/tech/web/yahoo-users-hacked/&#34;&gt;breaches&lt;/a&gt; &lt;a href=&#34;http://bgr.com/2014/05/27/ebay-hack-145-million-accounts-compromised/&#34;&gt;the&lt;/a&gt; &lt;a href=&#34;http://www.theverge.com/2013/11/7/5078560/over-150-million-breached-records-from-adobe-hack-surface-online&#34;&gt;last&lt;/a&gt; &lt;a href=&#34;http://qz.com/371676/hackers-breached-slacks-database-containing-users-contact-information-and-passwords/&#34;&gt;few&lt;/a&gt; &lt;a href=&#34;http://gawker.com/whats-actually-inside-the-nightmare-ashley-madison-leak-1725077740&#34;&gt;years&lt;/a&gt;. In addition to covering the ways password storage has been done wrong, I also present the best solutions. Instead of recapping it again, take a look at &lt;a href=&#34;http://codahale.com/how-to-safely-store-a-password/&#34;&gt;Coda Hale&amp;rsquo;s blog post&lt;/a&gt; on the topic.&lt;/p&gt;
+&lt;p&gt;The nicest surprise this year was that reading stopped being a referendum on discipline. It became a rotation I could return to, one chapter at a time.&lt;/p&gt;</description></item><item><title>Don't wait to fix your password storage</title><link>https://jtdowney.com/blog/2015/11/01/dont-wait-to-fix-your-password-storage/</link><pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate><guid>https://jtdowney.com/blog/2015/11/01/dont-wait-to-fix-your-password-storage/</guid><description>&lt;p&gt;Over the past few years, I have given a talk on Cryptography Pitfalls at a variety of conferences. One section of the talk covers the evolution of password storage and the &lt;a href="http://arstechnica.com/security/2012/06/8-million-leaked-passwords-connected-to-linkedin/"&gt;various&lt;/a&gt; &lt;a href="http://www.cnet.com/news/last-fm-warns-users-of-password-leak/"&gt;data&lt;/a&gt; &lt;a href="http://www.cnn.com/2012/07/12/tech/web/yahoo-users-hacked/"&gt;breaches&lt;/a&gt; &lt;a href="http://bgr.com/2014/05/27/ebay-hack-145-million-accounts-compromised/"&gt;the&lt;/a&gt; &lt;a href="http://www.theverge.com/2013/11/7/5078560/over-150-million-breached-records-from-adobe-hack-surface-online"&gt;last&lt;/a&gt; &lt;a href="http://qz.com/371676/hackers-breached-slacks-database-containing-users-contact-information-and-passwords/"&gt;few&lt;/a&gt; &lt;a href="http://gawker.com/whats-actually-inside-the-nightmare-ashley-madison-leak-1725077740"&gt;years&lt;/a&gt;. In addition to covering the ways password storage has been done wrong, I also present the best solutions. Instead of recapping it again, take a look at &lt;a href="http://codahale.com/how-to-safely-store-a-password/"&gt;Coda Hale&amp;rsquo;s blog post&lt;/a&gt; on the topic.&lt;/p&gt;
 &lt;p&gt;A few brave souls will occasionally come up to me later and admit their company still stores passwords in a less than ideal way. There are many reasons for this, but they generally boil down to the fact that the software is old and developers just didn&amp;rsquo;t know any better when they wrote that part of the system.&lt;/p&gt;
 &lt;p&gt;When talking to them about how they plan to solve it, most come up with roughly the same solution: when a user logs in, transparently write an updated &lt;code&gt;bcrypt&lt;/code&gt; version of the password to the database. The problem with this solution is that users don&amp;rsquo;t benefit from the new system if they never log in. When teams upgrade their passwords this way, they will often look back years later and find that some users never logged in again. This is especially true in consumer products.&lt;/p&gt;
 &lt;p&gt;My advice to them is always the same: &lt;strong&gt;don&amp;rsquo;t wait to fix your password storage&lt;/strong&gt;. You should instead run the existing password hashes through &lt;code&gt;bcrypt&lt;/code&gt; and store that as your password verifier.&lt;/p&gt;
@@ -206,19 +177,9 @@
 &lt;li&gt;Run a background job that visits each record in the &lt;code&gt;users&lt;/code&gt; table and updates their password by taking the &lt;code&gt;sha1(password)&lt;/code&gt; format and writing back the &lt;code&gt;bcrypt(sha1(password))&lt;/code&gt; format.&lt;/li&gt;
 &lt;li&gt;Go back and remove the code to detect the two different formats and only ever work with the new format.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Now you have fixed your password storage, and every user has the benefit right away.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Introducing Trustworthy</title>
-      <link>/blog/2013/08/01/introducing-trustworthy/</link>
-      <pubDate>Thu, 01 Aug 2013 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/2013/08/01/introducing-trustworthy/</guid>
-      <description>&lt;p&gt;We&amp;rsquo;ve all seen the tense scene in a war movie where the order has come down to launch the nuclear missiles. The captain and his first officer each take out a special key they&amp;rsquo;ve had around their neck the whole time. Then they both insert their individual keys into the weapons computer and turn simultaneously. Despite being a popular motif, this is a &lt;a href=&#34;http://en.wikipedia.org/wiki/Two_man_rule&#34;&gt;real policy&lt;/a&gt; implemented by many military organizations, including the U.S. Air Force. Once you think about it this kind of policy is obvious, one person shouldn&amp;rsquo;t be able to launch nuclear weapons on their own. Trustworthy is like having a two-man rule for your data.&lt;/p&gt;
-&lt;h2 id=&#34;how-it-works&#34;&gt;How it works&lt;/h2&gt;
-&lt;p&gt;Trustworthy is implemented as a &lt;a href=&#34;http://rubygems.org/gems/trustworthy&#34;&gt;ruby gem&lt;/a&gt; with the source on &lt;a href=&#34;https://github.com/jtdowney/trustworthy&#34;&gt;GitHub&lt;/a&gt;. When installed via ruby gems it creates a new command line utility named &lt;code&gt;trustworthy&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Now you have fixed your password storage, and every user has the benefit right away.&lt;/p&gt;</description></item><item><title>Introducing Trustworthy</title><link>https://jtdowney.com/blog/2013/08/01/introducing-trustworthy/</link><pubDate>Thu, 01 Aug 2013 00:00:00 +0000</pubDate><guid>https://jtdowney.com/blog/2013/08/01/introducing-trustworthy/</guid><description>&lt;p&gt;We&amp;rsquo;ve all seen the tense scene in a war movie where the order has come down to launch the nuclear missiles. The captain and his first officer each take out a special key they&amp;rsquo;ve had around their neck the whole time. Then they both insert their individual keys into the weapons computer and turn simultaneously. Despite being a popular motif, this is a &lt;a href="http://en.wikipedia.org/wiki/Two_man_rule"&gt;real policy&lt;/a&gt; implemented by many military organizations, including the U.S. Air Force. Once you think about it this kind of policy is obvious, one person shouldn&amp;rsquo;t be able to launch nuclear weapons on their own. Trustworthy is like having a two-man rule for your data.&lt;/p&gt;
+&lt;h2 id="how-it-works"&gt;How it works&lt;/h2&gt;
+&lt;p&gt;Trustworthy is implemented as a &lt;a href="http://rubygems.org/gems/trustworthy"&gt;ruby gem&lt;/a&gt; with the source on &lt;a href="https://github.com/jtdowney/trustworthy"&gt;GitHub&lt;/a&gt;. When installed via ruby gems it creates a new command line utility named &lt;code&gt;trustworthy&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Once you have installed trustworthy, the first step is to generate a new master key. This key is never stored anywhere on disk but is instead derived from at least two user keys.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;$ trustworthy init
 Creating a new master key with 2 keys
@@ -232,7 +193,7 @@ Password (again):
 Key user2 added
 Created trustworthy.yml
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This command will generate the key in the background and then split it using &lt;a href=&#34;#shamirs-secret-sharing-algorithm&#34;&gt;Shamir&amp;rsquo;s Secret Sharing Algorithm&lt;/a&gt;. You can then use trustworthy to encrypt and decrypt files using this master key.&lt;/p&gt;
+&lt;p&gt;This command will generate the key in the background and then split it using &lt;a href="#shamirs-secret-sharing-algorithm"&gt;Shamir&amp;rsquo;s Secret Sharing Algorithm&lt;/a&gt;. You can then use trustworthy to encrypt and decrypt files using this master key.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;$ trustworthy encrypt secret.txt
 Username: user1
 Password:
@@ -258,15 +219,10 @@ Password:
 Password (again):
 Added user3
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;shamirs-secret-sharing-algorithm&#34;&gt;Shamir&amp;rsquo;s Secret Sharing Algorithm&lt;/h2&gt;
-&lt;p&gt;The algorithm behind trustworthy is incredibly simple and requires nothing more than a high school understanding of algebra. Trustworthy uses &lt;a href=&#34;http://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing&#34;&gt;Shamir&amp;rsquo;s Secret Sharing algorithm&lt;/a&gt; to split a master key between two users. In general, Shamir&amp;rsquo;s Secret Sharing algorithm uses a polynomial as the master key. Each user is given a unique point along that polynomial that can be used to reconstruct the master key at a later point. Trustworthy implements the most basic form of Shamir&amp;rsquo;s Secret Sharing algorithm, polynomials of degree one.&lt;/p&gt;
+&lt;h2 id="shamirs-secret-sharing-algorithm"&gt;Shamir&amp;rsquo;s Secret Sharing Algorithm&lt;/h2&gt;
+&lt;p&gt;The algorithm behind trustworthy is incredibly simple and requires nothing more than a high school understanding of algebra. Trustworthy uses &lt;a href="http://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing"&gt;Shamir&amp;rsquo;s Secret Sharing algorithm&lt;/a&gt; to split a master key between two users. In general, Shamir&amp;rsquo;s Secret Sharing algorithm uses a polynomial as the master key. Each user is given a unique point along that polynomial that can be used to reconstruct the master key at a later point. Trustworthy implements the most basic form of Shamir&amp;rsquo;s Secret Sharing algorithm, polynomials of degree one.&lt;/p&gt;
 &lt;p&gt;If you think back to high school you might remember the slope intercept form &lt;code&gt;y = mx + b&lt;/code&gt; which defines a line. The y-intercept, &lt;code&gt;b&lt;/code&gt;, is used by trustworthy as the master key.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;../images/introducing-trustworthy-graph.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://jtdowney.com/images/introducing-trustworthy-graph.png" alt=""&gt;&lt;/p&gt;
 &lt;p&gt;In this example, Alice is given the point &lt;code&gt;10, 21&lt;/code&gt;, and Bob is given &lt;code&gt;40, 9&lt;/code&gt;. By themselves, neither Alice nor Bob can figure out the y-intercept. However, once they come together, they can recompute the line and easily derive the y-intercept &lt;code&gt;40&lt;/code&gt;. To protect the points along of the line, trustworthy encrypts the data using a user supplied password. At runtime the user provides the password so that the point can first be decrypted.&lt;/p&gt;
-&lt;h2 id=&#34;contributing&#34;&gt;Contributing&lt;/h2&gt;
-&lt;p&gt;If you think of a new feature or happen to find a bug feel free to open an issue on &lt;a href=&#34;https://github.com/jtdowney/trustworthy&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;h2 id="contributing"&gt;Contributing&lt;/h2&gt;
+&lt;p&gt;If you think of a new feature or happen to find a bug feel free to open an issue on &lt;a href="https://github.com/jtdowney/trustworthy"&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>
